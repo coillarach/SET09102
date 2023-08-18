@@ -1,5 +1,5 @@
 # Human factors in software engineering
-<link rel="stylesheet" type="text/css" href="set09102.css" /> 
+<link rel="stylesheet" type="text/css" href="../set09102.css" /> 
 
 <mark>what is DataBase</mark>
 
