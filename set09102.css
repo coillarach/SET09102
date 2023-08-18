@@ -1,0 +1,7 @@
+mark {
+    color:red;
+}
+
+feature + table {
+    max-width: 10em;
+}
