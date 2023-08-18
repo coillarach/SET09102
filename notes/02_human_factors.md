@@ -1,19 +1,12 @@
 # Human factors in software engineering
-<link rel="stylesheet" type="text/css" href="../set09102.css" /> 
-
-<mark>what is DataBase</mark>
 
 *Under development*
 
 ## Other people
 
-<feature>
-
-|  |                               |
-|--|-------------------------------|
-| ![Jean-Paul Sartre](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Jean-Paul_Sartre_in_Venice_%28crop%29.jpg/640px-Jean-Paul_Sartre_in_Venice_%28crop%29.jpg) | <h1>Hell is other poeple </h1> |
-
-</feature>
+|  |                                                       |
+|--|-------------------------------------------------------|
+| ![Jean-Paul Sartre](https://upload.wikimedia.org/wikipedia/commons/b/b7/Jean-Paul_Sartre_in_Venice_%28crop%29.jpg) | <h1>Hell is other people </h1><br/>*Jean-Paul Sartre* |
 
 
 ## The team
