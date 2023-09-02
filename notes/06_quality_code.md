@@ -38,6 +38,8 @@
 
 [Falco & Robiolo, 2022](https://doi.org/10.1109/ARGENCON55245.2022.9939935)
 
+[ISO25000](https://iso25000.com/index.php/en/iso-25000-standards)
+
 ## Clean code
 
 [Martin, 2009](https://napier.primo.exlibrisgroup.com/permalink/44NAP_INST/13v8mut/alma9923581530002111)
