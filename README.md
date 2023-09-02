@@ -4,9 +4,9 @@
 Software Engineering Methods module (SET08103). You can review that material
 on the [SET08103 GitHub site](https://github.com/Kevin-Sim/SET08103).
 
-| Week | Topic                                                                                                                              | Practical                                                                 | Assessment                                            |
+| Week | Topic                                                                                                                          | Practical                                                                 | Assessment                                            |
 |------|--------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------|
-| 2    | [Introduction to the module](notes/01_introduction.md)<br/>[Human factors in software engineering](notes/lecture02)            | [Setup: Visual Studio and GitHub](practicals/01_setup.md)                 | [Coursework brief](assessment)<br/>Portfolio 1: Setup |
+| 2    | [Introduction to the module](notes/01_introduction.md)<br/>[Human factors in software engineering](notes/02_human_factors.md)  | [Setup: Visual Studio and GitHub](practicals/01_setup.md)                 | [Coursework brief](assessment)<br/>Portfolio 1: Setup |
 | 3    | [Lifecycle and development models](notes/03_lifecycle.md) <br> [Team workflows](notes/04_workflow.md)                          | [Establishing a team workflow](practicals/02_workflow.md)                 | Portfolio 2: GitHub issue and pull request            |
 | 4    | [Quality: Processes](notes/05_quality_processes.md) <br> [Quality: Code](notes/06_quality_code.md)                             | [Code review](practicals/03_code_review.md)                               | Portfolio 3: Code review challenges                   |
 | 5    | [Software design](notes/07_design.md) <br> [Documentation](notes/08_documentation.md)                                          | [Clean code and documentation](practicals/04_clean_code.md)               | Portfolio 4: Documentation example                    |
