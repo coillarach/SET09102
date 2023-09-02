@@ -2,8 +2,6 @@
 
 *Under development*
 
-
-
 ## System lifecycles
 
 Because science, technology, society and customer requirements all evolve over time, every
@@ -70,12 +68,11 @@ relatively short and easy to read.
 
 [O'Regen, 2022, Ch. 4](https://link-springer-com.napier.idm.oclc.org/chapter/10.1007/978-3-031-07816-3_4)
 
-You have probably heard of the Software Development Lifecycle (SDLC). Most books
-on software development refer to the SDLC as if it is a single definitive 
-structure that can be applied in every case. However, that is not the case. 
-There are multiple ways of understanding and organising the lifecycle of a 
-software development project, and it is important to understand the options
-available with their advantages and disadvantages so that you can make 
+Most books on software development refer to the Software Development Lifecycle (SDLC) 
+as if it is a single definitive structure that can be applied in every case. However, 
+that is not the case. There are multiple ways of understanding and organising the 
+lifecycle of a software development project, and it is important to understand the 
+options available with their advantages and disadvantages so that you can make 
 appropriate choices.
 
 [ISO/IEC/IEEE 15288:2023](https://doi-org.napier.idm.oclc.org/10.1109/IEEESTD.2023.10123367)

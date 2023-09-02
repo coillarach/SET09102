@@ -4,12 +4,45 @@
 
 ## What this module covers (and what it doesn't...).
 
+The focus of this module is firmly on quality, and code quality in particular.
+It introduces you to some of the international quality standards that are relevant to
+software engineering, and provides practical experience with tools and techniques
+that you are already aware of, but with the overriding aim of maximising quality.
 
+By the end of the module, you should be able to
+
+1. Explain software quality in both formal and informal terms
+2. Apply design and development practices to optimise the quality of software systems
+3. Evaluate software quality
+4. Critique software development processes
+
+You will be writing some software and we will be exploring methods for ensuring
+that your code meets appropriate quality criteria. That is only part of the jigsaw,
+however. We will also be looking at the context in which software is created, the
+tools and processes that are used and how to manage them with quality in mind.
+
+As well as traditional skills and technologies, we will also be taking a look at
+computer-aided software engineering(CASE) and the use of the new generation of
+AI tools such as ChatGPT and StableCode and coding assitants such as
+GitHub Copilot. 
+
+The module is not designed to teach you basic programming. It is assumed that you
+have done that already and that you are already familiar with the object-oriented
+approach and you know your way around an integrated development environment (IDE).
+It is also assumed that you have at least a basic understanding of git and GitHub.
+
+The module site provide basic notes on each topic with additional links to other
+material. Reading comes in two types: essential reading and further reading. You
+are encouraged to read as widely as possible in the field of software engineering
+and the reading links provided here are just a starting point. The essential
+reading is the minimum you should do, and you will see it marked with this icon:
+
+![Please read](../images/material/outline_menu_book_black_48dp.png)
+
+The reading is typically from the textbooks on the 
+[reading list](https://eu.alma.exlibrisgroup.com/leganto/public/44NAP_INST/lists/6676828460002111?auth=SAML)
 
 ## What is a software engineer?
-
-
-
 
 [O'Regen, 2022, Ch. 1](https://link-springer-com.napier.idm.oclc.org/chapter/10.1007/978-3-031-07816-3_1)
 
