@@ -10,14 +10,13 @@ There are many types of relationship that a software engineer must maintain in
 order to do a good job. In this section, we will consider some of the most 
 important ones.
 
-<div style="display: inline-block; margin-left: auto; margin-right: auto">
 
-###### Here's you, engineering your software...
+<h6 align="center"> Here's you, engineering your software...
 
 <a href="https://bdavison.napier.ac.uk/set09102/other_people.html" target="_blank" alt="People in software engineering">
     <img src="../images/you.png">
 </a>
-</div>
+</h6>
 
 ## Stakeholder analysis
 
