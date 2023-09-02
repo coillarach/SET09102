@@ -10,11 +10,14 @@ There are many types of relationship that a software engineer must maintain in
 order to do a good job. In this section, we will consider some of the most 
 important ones.
 
+<div style="display: inline-block; margin-left: auto; margin-right: auto">
+
 ###### Here's you, engineering your software...
 
 <a href="https://bdavison.napier.ac.uk/set09102/other_people.html" target="_blank" alt="People in software engineering">
     <img src="../images/you.png">
 </a>
+</div>
 
 ## Stakeholder analysis
 
@@ -58,6 +61,7 @@ provides a clear explanation of how to conduct a thorough stakeholder analysis.
    <br/><br/>
 
    ![Importance vs Influence](https://www.pmi.org/kasimage/5e15b89e-6c9b-4e40-8e56-0c5d2c975aee/f3.jpg)
+   
    *Fig. 1: Stakeholders mapped by importance and influence [Smith, 2000](https://www.pmi.org/learning/library/stakeholder-analysis-pivotal-practice-projects-8905)*
 
 4. **Outline assumptions and risks**
