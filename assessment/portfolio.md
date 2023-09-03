@@ -33,10 +33,10 @@ The portfolio entry for each week has a close relationship with the scheduled pr
 work. Your portfolio should showcase your work in such a way that it could be shown to
 potential employers. It will take the form of a personal GitHub repository that is 
 distinct from the repository of the team you are working with. To get started, you can
-clone the [template repository](https://github.com/no-repo-yet). The template 
-provides a basic structure with an initial Readme page and an entry for each week
-of the module. The weekly pages contain some prompts for suggested content, but you
-are free to adjust the actual content as appropriate. There are two essential
+clone the [template repository](https://github.com/edinburgh-napier/SET09102_portfolio/tree/main). 
+The template provides a basic structure with an initial Readme page and an entry for 
+each week of the module. The weekly pages contain some prompts for suggested content, 
+but you are free to adjust the actual content as appropriate. There are two essential
 requirements for each portfolio entry:
 
 * Evidence of the work completed in the form of - for example - screenshots, links to 

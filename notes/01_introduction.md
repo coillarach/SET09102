@@ -107,7 +107,7 @@ view, that is equivalent to defining the required functionality of the system. F
 a project management point of view, it determines the scope of the project. Anything
 outside the boundary is not the responsibility of the project.
 
-This is a simplified picture, however. Different stakeholder might identify the 
+This is a simplified picture, however. Different stakeholders might identify the 
 system boundary differently depending on their interests. In addition, any component
 part of the system, or *system element*, can be regarded as a system in its own
 right, and may be further decomposed into smaller elements. Thus, there is a 
