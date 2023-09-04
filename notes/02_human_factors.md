@@ -1,20 +1,28 @@
 # Human factors in software engineering
 
-*Under development*
-
 |  |                                                       |
 |--|-------------------------------------------------------|
 | ![Jean-Paul Sartre](https://upload.wikimedia.org/wikipedia/commons/b/b7/Jean-Paul_Sartre_in_Venice_%28crop%29.jpg) | <h1>Hell is other people </h1><br/>*Jean-Paul Sartre* |
 
-There are many types of relationship that a software engineer must maintain in
-order to do a good job. In this section, we will consider some of the most 
-important ones.
+###### Contents
 
+1. [Other people](#other-people)
+2. [Stakeholder analysis](#stakeholder-analysis)
+3. [The team](#the-team)
+4. [Project management](#project-management)
+5. [Other relationships](#other-relationships)
+6. [Further reading](#further-reading)
+
+# Other people
+
+If you think about software engineering as simply writing code, it is easy to
+overlook the other people who have an interest in the software products that you
+are creating. The tour below illustrates some of the most important ones.
 
 <h6 align="center"> Here's you, engineering your software...
 
 <a href="https://bdavison.napier.ac.uk/set09102/other_people.html" target="_blank" alt="People in software engineering">
-    <img src="../images/you.png">
+    <img src="../images/you_small.png">
 </a>
 </h6>
 

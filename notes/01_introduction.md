@@ -7,7 +7,7 @@
 3. [What is a software engineer?](#what-is-a-software-engineer)
 4. [International standards](#international-standards)
 5. [System concepts](#system-concepts)
-6. [Links](#links)
+6. [Further reading](#further-reading)
 
 
 ## What this module covers (and what it doesn't...).
@@ -188,7 +188,7 @@ the external system.
 For other definitions of systems and related concepts, see the 
 [Software and Systems Engineering Vocabulary (SEVOCAB)](https://pascal.computer.org/sev_display/index.action).
 
-## Links
+## Further reading
 
 * [SEVOCAB: System Engineering dictionary of terms](https://pascal.computer.org/sev_display/index.action)
 * [ISO/IEC/IEEE 15288:2023](https://doi-org.napier.idm.oclc.org/10.1109/IEEESTD.2023.10123367)
