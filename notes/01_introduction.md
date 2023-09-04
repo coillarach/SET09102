@@ -1,6 +1,14 @@
 # Introduction
 
-*Under development*
+###### Contents
+
+1. [What this module covers (and what it doesn't...)](#what-this-module-covers-and-what-it-doesnt)
+2. [A brief historical tour](#a-brief-historical-tour)
+3. [What is a software engineer?](#what-is-a-software-engineer)
+4. [International standards](#international-standards)
+5. [System concepts](#system-concepts)
+6. [Links](#links)
+
 
 ## What this module covers (and what it doesn't...).
 
@@ -42,11 +50,42 @@ reading is the minimum you should do, and you will see it marked with this icon:
 The reading is typically from the textbooks on the 
 [reading list](https://eu.alma.exlibrisgroup.com/leganto/public/44NAP_INST/lists/6676828460002111?auth=SAML)
 
+## A brief historical tour
+
+History can be instructive: it shows you the connections between ideas, illuminates
+the emergence of innovations and identifies old ideas that have been left behind.
+
+From the perspective of a student in 2023, some things feel as though they have been
+around forever. It pays to remember that every digital innovation has been brought
+about by software engineers. The tour below is necessary *extremely* selective. It
+is intended to be illustrative rather than compehensive.
+
+<h6 align="center"> Here's you in 2023...
+
+<a href="https://bdavison.napier.ac.uk/set09102/timeline.html" target="_blank" alt="People in software engineering">
+    <img src="../images/you_small.png">
+</a>
+</h6>
+
+
 ## What is a software engineer?
 
 [O'Regen, 2022, Ch. 1](https://link-springer-com.napier.idm.oclc.org/chapter/10.1007/978-3-031-07816-3_1)
 
 [O'Regen, 2022, Ch. 2](https://link-springer-com.napier.idm.oclc.org/chapter/10.1007/978-3-031-07816-3_2)
+
+### Software engineering in overview
+
+[Stephens, 2022, Ch. 1](https://learning.oreilly.com/library/view/beginning-software-engineering/9781119901709/c01.xhtml)
+
+[Ozkaya, 2023](https://doi.org/10.1109/MS.2023.3278056)
+
+SWEBOK guide
+[BSI, 2016](https://bsol.bsigroup.com/Bibliographic/BibliographicInfoData/000000000030314312)
+
+### Programming languages
+
+[Stephens, 2022, Ch. 12](https://learning.oreilly.com/library/view/beginning-software-engineering/9781119901709/c12.xhtml)
 
 SEVOCAB
 [IEEE, 2023](https://pascal.computer.org/sev_display/index.action)
@@ -148,19 +187,6 @@ the external system.
 
 For other definitions of systems and related concepts, see the 
 [Software and Systems Engineering Vocabulary (SEVOCAB)](https://pascal.computer.org/sev_display/index.action).
-
-## Software engineering in overview
-
-[Stephens, 2022, Ch. 1](https://learning.oreilly.com/library/view/beginning-software-engineering/9781119901709/c01.xhtml)
-
-[Ozkaya, 2023](https://doi.org/10.1109/MS.2023.3278056)
-
-SWEBOK guide
-[BSI, 2016](https://bsol.bsigroup.com/Bibliographic/BibliographicInfoData/000000000030314312)
-
-## Programming languages
-
-[Stephens, 2022, Ch. 12](https://learning.oreilly.com/library/view/beginning-software-engineering/9781119901709/c12.xhtml)
 
 ## Links
 
