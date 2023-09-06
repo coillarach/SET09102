@@ -13,7 +13,7 @@
 5. [Other relationships](#other-relationships)
 6. [Further reading](#further-reading)
 
-# Other people
+## Other people
 
 If you think about software engineering as simply writing code, it is easy to
 overlook the other people who have an interest in the software products that you

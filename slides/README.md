@@ -20,7 +20,7 @@ To create a new set of slides
    * `title`
    * `dir`
    * `images`
+4. Set the content of the HTML &lt;title&gt; tag
 
 The `images` array is the list of image filenames in the order in which they 
 should appear.
-
