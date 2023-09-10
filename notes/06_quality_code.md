@@ -1,6 +1,12 @@
 # Quality: code
 
+###### Contents
+
 *Under development*
+
+![Code quality](https://imgs.xkcd.com/comics/code_quality.png)
+
+[*Source: xkcd* ](https://xkcd.com/1513/)
 
 [Stephens, 2022, Ch. 10](https://learning.oreilly.com/library/view/beginning-software-engineering/9781119901709/c10.xhtml)
 

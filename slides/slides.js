@@ -4,11 +4,10 @@ let slideIndex = 0;
 function add_slides() {
   // Add DIVs
   const container = document.getElementById("slideshow-container");
-  const dotset = document.getElementById("dots");
 
   for (var i = 0; i < images.length; i++) {
     const slide = document.createElement("div");
-    slide.classList.add("mySlides", "fade");
+    slide.classList.add("mySlides");
 
     const numbertext = document.createElement("div");
     numbertext.classList.add("numbertext");
@@ -19,18 +18,10 @@ function add_slides() {
     const caption = document.createElement("div");
     caption.classList.add("text");
 
-    const dot = document.createElement("span");
-    dot.classList.add("dot");
-    dot.setAttribute("onclick","currentSlide(" + i + ")");
-    // dot.onclick = function() {
-    //   currentSlide(images[self.id]);
-    // };
-
     container.appendChild(slide);
     slide.appendChild(numbertext);
     slide.appendChild(slide_img);
     slide.appendChild(caption);
-    dotset.appendChild(dot);
   }
 }
 
@@ -47,17 +38,12 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
   if (n == slides.length) {slideIndex = 0}
   if (n < 0) {slideIndex = slides.length - 1}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
   slides[slideIndex].style.display = "block";
-  dots[slideIndex].className += " active";
 }
 
 function slideShow() {

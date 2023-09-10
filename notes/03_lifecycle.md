@@ -1,5 +1,7 @@
 # Lifecycle and development models
 
+###### Contents
+
 *Under development*
 
 ## System lifecycles
@@ -63,6 +65,8 @@ which is in direct conflict with the nomenclature defined in the standard.
 relatively short and easy to read.
 
 ## Development project lifecycles
+
+[O'Regen, 2022, Ch. 1](https://link-springer-com.napier.idm.oclc.org/chapter/10.1007/978-3-031-07816-3_1)
 
 ## Projects
 

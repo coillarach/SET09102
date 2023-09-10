@@ -1,6 +1,12 @@
 # Ethics and professionalism
 
+###### Contents
+
 *Under development*
+
+[Not just code monkeys](https://youtu.be/4E3xfR6IBII?si=GKATbPp91lwKWcol)
+
+[IEEE professional ethics](https://www.ieee.org/about/compliance.html)
 
 [Stephens, 2022, Ch. 20](https://learning.oreilly.com/library/view/beginning-software-engineering/9781119901709/c20.xhtml)
 
