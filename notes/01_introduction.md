@@ -39,6 +39,17 @@ have done that already and that you are already familiar with the object-oriente
 approach, and you know your way around an integrated development environment (IDE).
 It is also assumed that you have at least a basic understanding of git and GitHub.
 
+Although we will be using C#, the module will not be leading you step by step through 
+the syntax of the language. As a prospective software engineer, you need to be able to
+transfer your skills in one language to another. You will do this many times over your
+working life. As noted in [Stephens, 2022, Ch. 12](https://learning.oreilly.com/library/view/beginning-software-engineering/9781119901709/c12.xhtml),
+once you are familiar with two or more languages, you come to realise that they are all
+very similar. Dating back to 2002, C# was Microsoft's response to Java and the 
+[original version](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history)
+had very similar syntax. The languages have diverged since then, but the concepts you have learnt
+in relation to Java are all relevant to C#. All you need is a good tutorial and some
+reference material, and you should soon feel at home.
+
 The module site provide basic notes on each topic with additional links to other
 material. Reading comes in two types: essential reading and further reading. You
 are encouraged to read as widely as possible in the field of software engineering

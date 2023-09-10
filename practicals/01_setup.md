@@ -24,17 +24,6 @@ with that IDE but some may not. You will need to organise a similar buddy system
 those who are unfamiliar with VS find their way around. If you can combine the two 
 requirements (SEM & VS) it will make your familiarisation process more efficient.
 
-Although we will be using C#, the module will not be leading you step by step through 
-the syntax of the language. As a prospective software engineer, you need to be able to
-transfer your skills in one language to another. You will do this many times over your
-working life. As noted in [Stephens, 2022, Ch. 12](https://learning.oreilly.com/library/view/beginning-software-engineering/9781119901709/c12.xhtml),
-once you are familiar with two or more languages, you come to realise that they are all
-very similar. Dating back to 2002, C# was Microsoft's response to Java and the 
-[original version](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history)
-had very similar syntax. The languages have diverged since then, but the concepts you have learnt
-in relation to Java are all relevant to C#. All you need is a good tutorial and some
-reference material, and you should soon feel at home.
-
 ## Documentation
 
 The one content requirement for this week is to create a documentation folder in the
