@@ -14,6 +14,8 @@ environment. That includes
 That is the extent of the practical work. However, the team as a whole will need to make 
 some decisions. 
 
+## Recommendations
+
 The majority of people will have done SET08103, but some may be direct entrants and
 will not have done that module. As a team, you will need to organise a buddy system
 which pairs experienced people with less experienced people to help bring them up to
@@ -23,6 +25,19 @@ We will be using C# and Visual Studio (VS). Similarly, some people will have exp
 with that IDE but some may not. You will need to organise a similar buddy system to help
 those who are unfamiliar with VS find their way around. If you can combine the two 
 requirements (SEM & VS) it will make your familiarisation process more efficient.
+
+It is important that the whole team uses the same configuration. Decide on one or two people
+who are familiar with GitHub to set up a repository for the whole team to share.
+
+Likewise, choose one or two people who know their way around Visual Studio to create the
+initial project and check it into GitHub so that it can be cloned by the rest of the team.
+
+Please note that you may need to install the .NET MAUI templates before you can create a
+new MAUI app in Visual Studio. To do this
+
+* Start a Windows CMD shell as administrator
+* `cd` to C:/Program Files/dotnet
+* Run the command `dotnet new install Microsoft.Maui.Templates`
 
 ## Documentation
 
