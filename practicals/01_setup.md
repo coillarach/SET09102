@@ -35,9 +35,12 @@ initial project and check it into GitHub so that it can be cloned by the rest of
 Please note that you may need to install the .NET MAUI templates before you can create a
 new MAUI app in Visual Studio. To do this
 
+* In Visual Studio, search for the .NET MAUI App template. If it is not available,
+  follow the instructions [here](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?tabs=vswin)
 * Start a Windows CMD shell as administrator
 * `cd` to C:/Program Files/dotnet
 * Run the command `dotnet new install Microsoft.Maui.Templates`
+* Restart Visual Studio
 
 ## Documentation
 
