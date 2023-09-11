@@ -67,9 +67,9 @@ provides a clear explanation of how to conduct a thorough stakeholder analysis.
    are the key stakeholders for your project.
    <br/><br/>
 
-   ![Importance vs Influence](https://www.pmi.org/kasimage/5e15b89e-6c9b-4e40-8e56-0c5d2c975aee/f3.jpg)
+   ![Importance vs Influence](../images/stakeholder_map.png)
    
-   *Fig. 1: Stakeholders mapped by importance and influence [Smith, 2000](https://www.pmi.org/learning/library/stakeholder-analysis-pivotal-practice-projects-8905)*
+   *Fig. 1: Stakeholders mapped by importance and influence*
 
 4. **Outline assumptions and risks**
    
