@@ -30,7 +30,7 @@ To add an SQLite database to your project, use the NuGet tool built into Visual 
 
 As a team, you need to decide what your workflow will include. You are advised to build on
 the basic [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow) and to add any additional steps in the process that you think 
-appropriate. Remember not to over-complicate in the esrly stages.
+appropriate. Remember not to over-complicate in the early stages.
 
 Once the team has decided on the workflow, it needs to described in a file called 
 `workflow.md` in the documentation folder. One person on the team should create the file
