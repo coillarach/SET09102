@@ -1,8 +1,8 @@
 # Team workflows
 
-|                                                                                                                             |                                                                                                                                   |
-|-----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| ![Merlin Mann](../images/merlin_mann.jpg)<br/>*Photo by [Thomas Hawk](https://www.flickr.com/photos/thomashawk/2298694177)* | <h3>Workflow is understanding your job, understanding your tools, and then not thinking about it any more.</h3><br/>*Merlin Mann* |
+|                                                                                                                           |                                                                                                                                   |
+|---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| ![Merlin Mann](../images/merlin_mann.png)<br/>*Photo by [Thomas Hawk](https://www.flickr.com/photos/thomashawk/2298694177)* | <h3>Workflow is understanding your job, understanding your tools, and then not thinking about it any more.</h3><br/>*Merlin Mann* |
 
 ###### Contents
 
@@ -95,8 +95,8 @@ next release where a lot of development work is going on. Because the next relea
 the current one, we can imagine taking a copy of the codebase at the point of release. That 
 way, we can fix emergencies with the live code in parallel with the new development work 
 because the two configurations are independent. In GitHib and other similar systems, this 
-is referred to as a branch in the code as illustrated in Fig. XX. Note that the branch representing
-the current release is called `main` - this is a common convention.
+is referred to as a *branch* in the code as illustrated in Fig. 2. Note that the branch 
+representing the current release is called `main` - this is a common convention.
 
 ```mermaid
 gitGraph
@@ -111,13 +111,12 @@ gitGraph
    commit id: "change 2"
    checkout main
    commit id: "bug fix 2"
-   merge next_release
 ```
 
-*Fig. XX: Release branch*
+*Fig. 2: Release branch*
 
 Once the code configuration for the new release is stable, the parallel code branch can be 
-*merged* with the main branch as illustrated in Fig. XX. During this process, it is possible
+*merged* with the main branch as illustrated in Fig. 3. During this process, it is possible
 for code conflicts to arise. This is where changes have occurred to the same file in 
 both branches and keeping one version would mean losing the changes in the other. Some such
 conflicts can be handled in an automated way, but others will require the two versions of the file
@@ -144,12 +143,12 @@ gitGraph
    commit id: " "
 ```
 
-*Fig. XX: Merging branches*
+*Fig. 3: Merging branches*
 
 A further complication that needs to be managed is that several pieces of development work will be
 going on simultaneously, each being worked on by a different developer. It is essential that these 
 changes do not conflict with each other. A good way to manage this extra complication is to create
-a separate branch for each piece of work as illustrated in Fig. XX. In the example, one developer
+a separate branch for each piece of work as illustrated in Fig. 4. In the example, one developer
 creates a branch to work on feature 1 and a second developer creates a parallel branch to work on 
 feature 2. Once both pieces of work are complete they are merged into the new release branch. The 
 same procedure would be done for the bug fixes in the main branch.
@@ -183,7 +182,7 @@ gitGraph
    commit id: " "
 ```
 
-*Fig XX: Parallel feature branches*
+*Fig 4: Parallel feature branches*
 
 A merge operation is triggered by a *pull request* (PR). With a PR, the developer is indicating that the
 code changes and testing are complete,and that the modified code is ready to be pulled into the parent
@@ -219,14 +218,14 @@ represented in a tabular format, as a roadmap or in the form of a Kanban-style t
 of format is up to the team, but for the purposes of these notes, we will assume the use of a task board.
 
 By default, a task board in GitHub contains the three swimlanes, `Todo`, `In Progress` and `Done` as 
-shown in Fig. XX. Further columns can be added if needed - this depends on how the team decides to 
+shown in Fig. 5. Further columns can be added if needed - this depends on how the team decides to 
 manage the work. For example, a swimlane for stalled tasks could be added, or for tasks in review. 
 The task board can be as complicated as required, but in general, the simpler the structure, the 
 more intuitive it is to use.
 
 ![Default GitHub task board](../images/github_task_board.png)
 
-*Fig XX: Default GitHub task board*
+*Fig 5: Default GitHub task board*
 
 Tasks in GitHub are represented by [issues](https://docs.github.com/en/issues). They can be added
 directly on the task board using the button at the bottom of each swimlane. If you take that option,
@@ -234,17 +233,17 @@ you will need to explicitly attach the new issue to the relevant code repository
 the relationship between projects and repositories doesnot have to be one-to-one. You can also create
 issues using the issues tab on the repository page. If you take that option, you will need to say
 explicitly which project the issue should be added to. This is done using the controls on the right of
-the issue creation page as shown in Fig. XX.
+the issue creation page as shown in Fig. 6.
 
 ![New issue page](../images/new_issue.png)
 
-*Fig. XX: GitHub new issue page*
+*Fig. 6: GitHub new issue page*
 
 When using a task board, an item gradually accumulates detail and moves through the swimlanes from left
 to right as the work progresses. Exactly *when* an item is moved from one swimlane to the next needs to
 be defined in the team workflow so that there is no ambiguity. Once defined, these rules can be 
 performed and enforced manually, but GitHub can help to automate some of the steps. Clicking on the
-three-dots icon in the top right-hand corner of the task board (see Fig. XX) allows you to select a
+three-dots icon in the top right-hand corner of the task board (see Fig. 5) allows you to select a
 `Workflows` option. Here, you can define several actions to be triggered automatically. The options
 are more or less self-explanatory and require some experimentation. The main point is that a team
 should make explicit decisions about how their task board should operate and which steps are to be
@@ -302,10 +301,12 @@ to understanding the requirement:
 ## Summary
 
 In light of the previous sections, two main phases of activity can be identified around
-any piece of development work. The time required for each stage depends on the 
+any piece of development work as shown in Fig.7. The time required for each stage depends on the 
 complexity of the original issue. 
 
 ![Development process](../images/dev_process.png)
+
+*Fig. 7: Two-phase development process*
 
 The rules that a team sets for itself in defining a standard workflow are intended to help 
 with communication and to avoid errors and conflicts. Although there are examples of good
