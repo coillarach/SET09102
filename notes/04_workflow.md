@@ -10,8 +10,8 @@
 2. [Branching and merging](#branching-and-merging)
 3. [GitHub Flow](#github-flow)
 4. [Issues and issue-related workflow](#issues-and-issue-related-workflow)
-5. [Definition of Done](#definition-of-done)
-6. [Definition of Ready](#definition-of-ready)
+5. [Definition of Ready](#definition-of-ready)
+6. [Definition of Done](#definition-of-done)
 7. [Summary](#summary)
 8. [Further reading](#further-reading)
 
@@ -250,53 +250,59 @@ should make explicit decisions about how their task board should operate and whi
 automated. Thos decisions should be clearly documented sothat they are easy for team members to
 follow.
 
-## Definition of Done
-
-In Scrum, the *Definition of Done* (DoD) is a checklist of things that need to ticked off
-before a task is considered finished. An example of a simple DoD might be:
-
-* All acceptance criteria are met
-* Unit test coverage > 80%
-* Functional tests passed
-* No known defects
-* Peer code review is complete
-* Documentation is updated
-
-The DoD is a key part of a Scrum workflow because it requires a developer to take certain
-actions at the point that a development task is finished. When working with platforms
-like GitHub, we can also add administrative items to the checklist such as:
-
-* Pull request created
-* Feature branch merged
-
-Certain items in the DoD assume that other actions have been taken earlier. For example,
-acceptance criteria must have been defined, and a development branch must have been
-created. The full definition of the workflow includes all the steps in the process 
-and arranges them in the most efficient way.
-
 ## Definition of Ready
 
-Another key point in the development process is when the developer starts making 
-code changes. We can either assume that they are ready to do this, or we can create
-a *Definition of Ready* (DoR) to be sure. The DoR might include items such as:
+It is a simple observable fact that the majority of developers like to get started working on
+code changes as quickly as possible. However, that is not always the most efficient approach
+and it can lead to dead ends, delays and re-work. To counter this, a *Definition of Ready* (DoR)
+can be used. Essentially, it is a checklist that defines the criteria for starting on a 
+development task. The DoR might include items such as:
 
 * Requirements are clear
 * Requirements are testable
 * Acceptance criteria are defined
 * Dependencies have been identified
 
-As with the DoD, administrative items can be added such as those shown below which 
-close the loop on some of the DoD items:
+A good way to decide whether a development task is ready to be worked on is to use the INVEST
+method:
 
-* Create a development branch
-* Synchronise development environment
+> **I: Independent**
+> It should be possible to work on a task independently of any other
+> 
+> **N: Negotiable**
+> A task should not be over-constrained; instead, there should be room for negotiatioon about 
+> the best way to implement it
+> 
+> **V: Valuable**
+> The value of the task for the project/client should be clear. This is usually captured by 
+> acceptance criteria
+> 
+> **E: Estimable**
+> It should be possible to make a reasonably accurate estimate of the time required for the task.
+> If a task is too complex this will be difficult and the task may need splitting.
+> 
+> **S: Small**
+> (See previous point) Ideally a single task should represent a few person-days of work.
+> 
+> **T: Testable**
+> Another indication that a task needs to be split is when the tests required are hard to define
+> or are very complex.
 
-In addition, there might be planning or documentary items on the list that are related
-to understanding the requirement:
+## Definition of Done
 
-* Original issue has been elaborated
-* Use cases have been defined
-* Database changes have been identified and documented
+In Scrum, the *Definition of Done* (DoD) is a checklist of things that need to ticked off
+before a product configuration is considered ready to release. An example of a simple DoD might be:
+
+* All acceptance criteria are met
+* Unit test coverage > 80%
+* Functional tests passed
+* No known defects
+* Documentation is up-to-date
+
+The DoD defines the threshold for release of the product, but at the point a development task
+is completed it also needs to be checked against the DoD. This ensures that acceptance
+criteria are checked at the earliest opportunity, for example, and avoids the accumulation
+of hidden problems.
 
 ## Summary
 
@@ -323,9 +329,9 @@ introduce changes when it becomes clear that the workflow can be improved.
 
 ## Further reading
 
-* [![](../common_img/material/web.svg#icon-intended) GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
-* [![](../common_img/material/web.svg#icon-intended) 5 Git workflows](https://zepel.io/blog/5-git-workflows-to-improve-development/)
-* [![](../common_img/material/web.svg#icon-intended) Definition of Done](https://www.scrum.org/resources/blog/done-understanding-definition-done)
-* [![](../common_img/material/web.svg#icon-intended) Definition of Ready](https://www.linkedin.com/pulse/definition-ready-dor-vs-done-dod-brian-will/)
+* [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
+* [5 Git workflows](https://zepel.io/blog/5-git-workflows-to-improve-development/)
+* [Definition of Ready](https://www.linkedin.com/pulse/definition-ready-dor-vs-done-dod-brian-will/)
+* [Definition of Done](https://www.scrum.org/resources/blog/done-understanding-definition-done)
 
 
