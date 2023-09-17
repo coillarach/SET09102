@@ -44,8 +44,8 @@ flowchart LR
     Production --> Utilisation
     Development <--> Utilisation
     Concept <--> Utilisation
-    Concept <--> Support
     Utilisation <--> Support
+    Concept <--> Support
     Utilisation --> Retirement
     Support --> Retirement
 ```
