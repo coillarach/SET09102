@@ -330,8 +330,7 @@ introduce changes when it becomes clear that the workflow can be improved.
 ## Further reading
 
 * [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
-* [5 Git workflows](https://zepel.io/blog/5-git-workflows-to-improve-development/)
-* [Definition of Ready](https://www.linkedin.com/pulse/definition-ready-dor-vs-done-dod-brian-will/)
+* [Definition of Ready](https://resources.scrumalliance.org/Article/pros-cons-definition-ready)
 * [Definition of Done](https://www.scrum.org/resources/blog/done-understanding-definition-done)
 
 
