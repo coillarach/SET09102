@@ -1,7 +1,5 @@
 # Setup: Visual Studio and GitHub
 
-*Under development*
-
 Several of the practical exercises in this module require you to work as part of a team.
 The goal this week is to ensure that everyone has a properly-configured working 
 environment. That includes 

@@ -3,8 +3,9 @@
 *Under development*
 
 The purpose of this practical is to continue with the team startup process. There are
-four main tasks:
+five main tasks:
 
+* 
 * Decide on a standard team workflow that everyone should follow when working on a
   GitHub issue
 * Import the list of issues into your team project

@@ -2,7 +2,7 @@
 
 |  |                                                       |
 |--|-------------------------------------------------------|
-| ![Jean-Paul Sartre](https://upload.wikimedia.org/wikipedia/commons/b/b7/Jean-Paul_Sartre_in_Venice_%28crop%29.jpg) | <h1>Hell is other people </h1><br/>*Jean-Paul Sartre* |
+| ![Jean-Paul Sartre](https://upload.wikimedia.org/wikipedia/commons/b/b7/Jean-Paul_Sartre_in_Venice_%28crop%29.jpg) | <h2>Hell is other people </h2><br/>*Jean-Paul Sartre* |
 
 ###### Contents
 
