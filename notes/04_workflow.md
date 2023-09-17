@@ -2,7 +2,7 @@
 
 |                                                                                                                             |                                                                                                                                   |
 |-----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| ![Merlin Mann](../images/merlin_mann.png)<br/>*Photo by [Thomas Hawk](https://www.flickr.com/photos/thomashawk/2298694177)* | <h3>Workflow is understanding your job, understanding your tools, and then not thinking about it any more.</h3><br/>*Merlin Mann* |
+| ![Merlin Mann](../images/merlin_mann.jpg)<br/>*Photo by [Thomas Hawk](https://www.flickr.com/photos/thomashawk/2298694177)* | <h3>Workflow is understanding your job, understanding your tools, and then not thinking about it any more.</h3><br/>*Merlin Mann* |
 
 ###### Contents
 
