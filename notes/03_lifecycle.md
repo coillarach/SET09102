@@ -1,8 +1,8 @@
 # Lifecycle and development models
 
-|                    |                                                       |
-|--------------------|-------------------------------------------------------|
-| ![Martin Fowler](../images/martin_fowler.png) | <h1>When to use iterative development? You should use iterative development only on projects that you want to succeed.</h1><br/>*Martin Fowler* |
+|                    |                                                                                                                                                 |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Martin Fowler](../images/martin_fowler.png) | <h3>When to use iterative development? You should use iterative development only on projects that you want to succeed.</h3><br/>*Martin Fowler* |
 
 ###### Contents
 
@@ -123,7 +123,7 @@ but other issues still remained.
 
 ![V model](../images/v-model.png)
 
-*Fig 4: V model ([Rook, 1986](https://doi.org/10.1049/sej.1986.0003)*
+*Fig 4: V model ([Rook, 1986](https://doi.org/10.1049/sej.1986.0003))*
 
 ### The waterfall model with feedback
 
@@ -248,3 +248,4 @@ Fig. 9.
 * Software Project Management ([O'Regen, 2022, Ch. 4](https://link-springer-com.napier.idm.oclc.org/chapter/10.1007/978-3-031-07816-3_4))
 * Manifesto for Agile Software Development ([Beck et al., 2001](https://agilemanifesto.org/))
 * Developing information for users in an agile environment ([ISO/IEC/IEEE 26515](https://napier.primo.exlibrisgroup.com/permalink/44NAP_INST/19n0mho/cdi_ieee_standards_0b0000648897745a))
+* Deployment ([Stephens, 2022, Ch. 14](https://learning.oreilly.com/library/view/beginning-software-engineering/9781119901709/c14.xhtml))
