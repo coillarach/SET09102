@@ -266,25 +266,25 @@ development task. The DoR might include items such as:
 A good way to decide whether a development task is ready to be worked on is to use the INVEST
 method:
 
-> **I: Independent**
+> **Independent**:
 > It should be possible to work on a task independently of any other
 > 
-> **N: Negotiable**
+> **Negotiable**:
 > A task should not be over-constrained; instead, there should be room for negotiatioon about 
 > the best way to implement it
 > 
-> **V: Valuable**
+> **Valuable**:
 > The value of the task for the project/client should be clear. This is usually captured by 
 > acceptance criteria
 > 
-> **E: Estimable**
+> **Estimable**:
 > It should be possible to make a reasonably accurate estimate of the time required for the task.
 > If a task is too complex this will be difficult and the task may need splitting.
 > 
-> **S: Small**
+> **Small**:
 > (See previous point) Ideally a single task should represent a few person-days of work.
 > 
-> **T: Testable**
+> **Testable**:
 > Another indication that a task needs to be split is when the tests required are hard to define
 > or are very complex.
 
