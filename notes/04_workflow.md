@@ -13,7 +13,7 @@
 5. [Definition of Done](#definition-of-done)
 6. [Definition of Ready](#definition-of-ready)
 7. [Summary](#summary)
-8. [Further readin](#further-reading)
+8. [Further reading](#further-reading)
 
 When you are working on a string of similar tasks using the same tools it can get a
 bit boring. A natural tendency is to internalise short and reliable patterns for 
