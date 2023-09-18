@@ -54,8 +54,14 @@ You create a portfolio entry as a [markdown](https://www.markdownguide.org/) pag
 your GitHub repository. In addition, you are required to export the markdown page to 
 pdf and submit the resulting document to Moodle by the appropriate deadline.
 
-Markdown pages can easily be converted to pdf by using a web service such as 
-[Markdown to PDF](https://www.markdowntopdf.com/).
+To create a pdf version of your page
+
+1. View the page in GitHub
+2. Right-click on the page
+3. Select **Print...**
+4. Set **Destination** to *Save as PDF*
+5. Set the filename and destination directory
+6. Save
 
 ## Marking
 
