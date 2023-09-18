@@ -11,8 +11,7 @@ Please make sure that anyone on the team who needs support has someone they can 
 <details><summary>As a system administrator, I want to maintain reference values for continents</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for continents
+To be able to list, create, update and delete reference values for continents
 
 **End business goal:**
 To have appropriate continent records available to annotate countries (e.g. 'Asia', 'South America', 'Oceania', etc.)
@@ -34,8 +33,7 @@ To have appropriate continent records available to annotate countries (e.g. 'Asi
 <details><summary>As a system administrator, I want to maintain reference values for rota types</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for rota types
+To be able to list, create, update and delete reference values for rota types
 
 **End business goal:**
 To have appropriate types available to classify rotas (e.g. 'OSOCC security', 'accommodation cleaning', 'kitchen duty', etc.)
@@ -57,8 +55,7 @@ To have appropriate types available to classify rotas (e.g. 'OSOCC security', 'a
 <details><summary>As a system administrator, I want to maintain reference values for equipment types</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for equipment types
+To be able to list, create, update and delete reference values for equipment types
 
 **End business goal:**
 To have appropriate types available to describe items of equipment (e.g. 'vehicle', 'stretcher', 'mobile la
@@ -81,8 +78,7 @@ e', etc.)
 <details><summary>As a system administrator, I want to maintain reference values for organisation types</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for organisation types
+To be able to list, create, update and delete reference values for organisation types
 
 **End business goal:**
 To have appropriate type available to add to describe organisations (e.g. 'un', 'national government', 'media agency', etc.)
@@ -104,8 +100,7 @@ To have appropriate type available to add to describe organisations (e.g. 'un', 
 <details><summary>As a system administrator, I want to maintain reference values for order statuses</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for order statuses
+To be able to list, create, update and delete reference values for order statuses
 
 **End business goal:**
 To have appropriate statuses available to describe orders for more resources (e.g. 'provisional', 'sent', 'fulfilled', etc.)
@@ -127,8 +122,7 @@ To have appropriate statuses available to describe orders for more resources (e.
 <details><summary>As a system administrator, I want to maintain reference values for resource types</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for resource types
+To be able to list, create, update and delete reference values for resource types
 
 **End business goal:**
 To have appropriate types available to describe resources (e.g. 'food', 'fuel', 'clothing', 'medical', etc.)
@@ -150,8 +144,7 @@ To have appropriate types available to describe resources (e.g. 'food', 'fuel', 
 <details><summary>As a system administrator, I want to maintain reference values for room type</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for room types
+To be able to list, create, update and delete reference values for room types
 
 **End business goal:**
 To have appropriate types available to describe diff
@@ -174,8 +167,7 @@ t rooms in the OSOCC (e.g. 'office', 'accommodation', 'storage', etc.)
 <details><summary>As a system administrator, I want to maintain reference values for room use types</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for room use types
+To be able to list, create, update and delete reference values for room use types
 
 **End business goal:**
 To have appropriate types available to describe a room use (e.g. 'accommodation', 'storage', 'kitchen', etc.)
@@ -197,8 +189,7 @@ To have appropriate types available to describe a room use (e.g. 'accommodation'
 <details><summary>As a system administrator, I want to maintain reference values for building types</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for room use statuses
+To be able to list, create, update and delete reference values for room use statuses
 
 **End business goal:**
 To have appropriate statuses available to describe a building (e.g. 'house', 'portakabin', 'tent', 'garage', etc.)
@@ -220,8 +211,7 @@ To have appropriate statuses available to describe a building (e.g. 'house', 'po
 <details><summary>As a system administrator, I want to maintain reference values for system types</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for system types
+To be able to list, create, update and delete reference values for system types
 
 **End business goal:**
 To have appropriate types available to describe systems (e.g. 'administrative', 'infrastructure', 'intelligence', 'communications', etc.)
@@ -243,8 +233,7 @@ To have appropriate types available to describe systems (e.g. 'administrative', 
 <details><summary>As a system administrator, I want to maintain reference values for system privilege levels</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for system privilege levels
+To be able to list, create, update and delete reference values for system privilege levels
 
 **End business goal:**
 To have appropriate levels available to describe a system privilege (e.g. 'public', 'user', 'admin', etc.)
@@ -266,8 +255,7 @@ To have appropriate levels available to describe a system privilege (e.g. 'publi
 <details><summary>As a system administrator, I want to maintain reference values for operational authorisation status</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for operational authorisation statuses
+To be able to list, create, update and delete reference values for operational authorisation statuses
 
 **End business goal:**
 To have appropriate statuses available to describe operational authorisations (e.g. 'submitted', 'approved', 'rejected', etc.)
@@ -289,8 +277,7 @@ To have appropriate statuses available to describe operational authorisations (e
 <details><summary>As a system administrator, I want to maintain reference values for alert types</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for alert types
+To be able to list, create, update and delete reference values for alert types
 
 **End business goal:**
 To have appropriate types available to categorise alerts (e.g. 'security', 'team', 'resource', etc.)
@@ -312,8 +299,7 @@ To have appropriate types available to categorise alerts (e.g. 'security', 'team
 <details><summary>As a system administrator, I want to maintain reference values for operational team statuses</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for operational team statuses
+To be able to list, create, update and delete reference values for operational team statuses
 
 **End business goal:**
 To have appropriate statuses available to describe an operational team (e.g. 'requested', 'confirmed', 'active', etc.)
@@ -335,8 +321,7 @@ To have appropriate statuses available to describe an operational team (e.g. 're
 <details><summary>As a system administrator, I want to maintain reference values for assignment statuses</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for assignment statuses
+To be able to list, create, update and delete reference values for assignment statuses
 
 **End business goal:**
 To have appropriate assignment statuses available to add to describe a person's assignment to an operational team (e.g. 'requested', 'authorised', 'rejected', etc.)
@@ -358,8 +343,7 @@ To have appropriate assignment statuses available to add to describe a person's 
 <details><summary>As a system administrator, I want to maintain reference values for position statuses</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for position statuses
+To be able to list, create, update and delete reference values for position statuses
 
 **End business goal:**
 To have appropriate position statuses available to describe a person's position in an organisation (e.g. 'active', 'retired', 'seconded out')
@@ -380,8 +364,7 @@ To have appropriate position statuses available to describe a person's position 
 <details><summary>As a system administrator, I want to maintain reference values for roles</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for roles
+To be able to list, create, update and delete reference values for roles
 
 **End business goal:**
 To have appropriate roles available to describe a person's position in a team (e.g. 'leader', 'driver', 'medic', etc.)
@@ -402,8 +385,7 @@ To have appropriate roles available to describe a person's position in a team (e
 <details><summary>As a system administrator, I want to maintain reference values for skills</summary>
 
 **End user goal:**
-To be able to list, create, update and delete ref
-ce values for skills
+To be able to list, create, update and delete reference values for skills
 
 **End business goal:**
 To have appropriate skills available to add to a user's profile and to use in search operations
