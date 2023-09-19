@@ -14,4 +14,11 @@ If the `dotnet` command is not recognised by your operating system, the containi
 not in your system path. To work around this, find out which directory `dotnet` is in, `cd` to
 that directory and run the command from there.
 
+If the .NET MAUI is already installed using Visual Studio Installer, uninstall it together with .NET and 
+follow these steps:
+
+1. Delete all files and folders in `C:/Program Files (x86)/dotnet`
+2. Run the command `dotnet new install Microsoft.Maui.Templates`
+3. Install .NET MAUI and .NET again using Visual Studio Installer
+
 </details>
