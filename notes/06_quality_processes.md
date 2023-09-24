@@ -186,7 +186,12 @@ flowchart TD
   node2 --> decision1{Does \ncode meet \ncompany \nguidelines?}
   decision1 --> |yes| node3(Accept PR)
   decision1 --> |no| node4(Reject PR)
-  box1[Things checked \n1. Company policies&nbsp;&nbsp;&nbsp;&nbsp;\n2. Coding standards&nbsp;&nbsp;&nbsp;&nbsp;\n3. Company guidelines]
+  subgraph box1["Things checked
+
+1. Company policies#nbsp;#nbsp;#nbsp;#nbsp;
+2. Coding standards#nbsp;#nbsp;#nbsp;#nbsp;
+3. Company guidelines"]
+  end
   style box1 fill: #fff
 ```
 
