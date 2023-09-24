@@ -416,7 +416,7 @@ perfectly.
 ### DRY
 
 The situation often arises, especially when building code iteratively, that you need a
-code bloack that is either identical to one used previously, or something very similar.
+code block that is either identical to one used previously, or something very similar.
 The quick and dirty method is to copy the previous block and to make any minor
 modifications needed to make it run. The proper way to handle this situation would be 
 to extract the code you are re-using into a separate function with parameters to control

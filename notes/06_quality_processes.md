@@ -101,9 +101,9 @@ The checks in Fig. 2 can be summarised as follows:
 > 
 > **Sanity check**
 > 
-> Last-minute checks for artefacts that should not be committed to the repository. Some of these are automated -
-> for example, before proceeding with a commit operation, the IDE will warn the developer if the code contains
-> ToDo comments.
+> Last-minute checks for artefacts that should not be committed to the repository. Some 
+> of these are automated - for example, before proceeding with a commit operation, the IDE 
+> will warn the developer if the code contains ToDo comments.
 > 
 > **Build verification test**
 > 
@@ -111,14 +111,15 @@ The checks in Fig. 2 can be summarised as follows:
 > 
 > **Integration test**
 > 
-> Verifies that the entire application performs as intended when the code changes are included
+> Verifies that the entire application performs as intended when the code changes are 
+> included
 > 
 > **Dynamic code analysis**
 > 
-> Consists of checks that are performed while the application is running. This can include checks on external 
-> properties such as performance efficiency, but also provides a mechanism for checking for runtime errors. These
-> might be caused by dependencies that cannot be checked statically such as instances of reflection, dependency
-> injection, etc.
+> Consists of checks that are performed while the application is running. This can include 
+> checks on external properties such as performance efficiency, but also provides a 
+> mechanism for checking for runtime errors. These might be caused by dependencies that 
+> cannot be checked statically such as instances of reflection, dependency injection, etc.
 > 
 > **New feature and regression testing**
 > 
