@@ -9,7 +9,7 @@ in difficulty as you go through the series. You will accumulate a points score a
 you go through them - don't skip ahead, otherwise you will miss out on points from
 the early ones.
 
-## Identifying probems
+## Identifying problems
 
 *Under development*
 

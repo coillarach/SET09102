@@ -2,6 +2,11 @@
 
 ###### Contents
 
+|                                           |                                                                                                                                                                         |
+|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Mario Fusco](../images/mario_fusco.png) | <h3>The code you write makes you a programmer. The code you delete makes you a good one. The code you don’t have to write makes you a great one.</h3><br/>*Mario Fusco* |
+
+
 *Under development*
 
 [O'Regen, 2022, Ch. 6](https://link-springer-com.napier.idm.oclc.org/chapter/10.1007/978-3-031-07816-3_6)
