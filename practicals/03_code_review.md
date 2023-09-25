@@ -8,7 +8,7 @@ you go through them - don't skip ahead, otherwise you will miss out on points fr
 the early ones.
 
 You can access the code review challenges here: 
-[![Code review challenges](../images/material/robot-confused.png)](https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&FormId=WNzgmUucIEiGFwTDhsJUxvHCPbVCx71GkCUWobrtI5ZUNlVTTFRPRVRIVjdVWUI1NktTWEJMTUM3Ri4u&Token=05e3cfc5322444758188d3e0d697b611)
+[![Code review challenges](../images/material/robot-confused.png)](https://forms.office.com/e/m5ddNd4dNX)
 
 ## Identifying problems
 
