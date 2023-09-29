@@ -10,6 +10,7 @@
 1. [Design activities](#design-activities)
 2. [High-level design](#high-level-design)
 3. [Low-level design](#low-level-design)
+4. [Further reading](#further-reading)
 
 ## Design activities
 
