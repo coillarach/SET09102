@@ -11,3 +11,6 @@
 [Vaupel & Waldmann, 2023](https://doi.org/10.21125/inted.2023.2069)
 
 
+## Code generation from UML/P
+
+[Rumpe, 2017](https://napier.primo.exlibrisgroup.com/permalink/44NAP_INST/n96pef/alma9923485696002111)
