@@ -155,12 +155,114 @@ the developer. It is also easy to ensure that the API documentation is kept sync
 with any code changes such as by including it in the Definition of Done.
 
 An open equivalent to javadoc that can be used with .NET projects is 
-[Doxygen](https://www.doxygen.nl/). It makes use of similar standard code blocks as
-headers for significant code elements. This obviously has the added advantage that the 
-description is available in situ for any developer who needs to modify code written by
-the original author. Although this is not strictly speaking in line with the Clean Code
-approach, the benefit of being able to generate comprehensive documentation automatically
-outweigh the downsides of the additional comments. 
+[Doxygen](https://www.doxygen.nl/). It makes use of similar standard code blocks as headers 
+for significant code elements. A lot of information is extracted directly from the 
+source code, and the developer can also provide additional detail such as the meaning
+and data type of each parameter. 
+
+Doxygen can be run using the command line, but it also has a wizard that provides a
+convenient graphical interface. When configuring Doxygen using either method, the
+important values to specified are
+
+* **The run directory**
+
+  This is not the installation directory for Doxygen, but the working directory. By
+  default, it is also the location where the outout will be generated.
+
+* **The source code directory**
+
+  This is the root directory of the .NET project. To ensure that all files in the hierarchy
+  are included in the documentation, check the *Scan recursively* option.
+
+* **Extraction mode**
+
+  The options here are *Documented entities only* or *All entities*. You can control
+  the content of the documentation by choosing the first option and only documenting
+  the entities that you want to be included.
+
+* **Output formats**
+
+  These options allow you to choose HTML and/or LaTex. You can additionally choose to
+  include a navigation panel and search function in the HTML output.
+
+* **Diagram options**
+
+  Doxygen has a built-in diagram generator which is usually sufficient.
+
+For the majority of options, please see the [Doxygen documentation](https://www.doxygen.nl/manual/index.html).
+As a brief illustration, the following example is provided as a standard 
+[C# example](https://github.com/dotnet/maui-samples/tree/main/7.0/Apps/WeatherTwentyOne).
+Explicit documentation has only been added to one source file, 
+`src/WeatherTwentyOne/Services/WeatherService.cs` as shown in Fig. 5. The comments 
+start with a delimiter, either `/!` for a single-line comment or `/*!` for a
+multi-line comment. 
+
+``` csharp
+using System.Net.Http.Json;
+
+namespace WeatherClient2021;
+
+/*! The WeatherClient class retrieves information from the   
+ *  configured weather service using HTTP
+ */
+
+public class WeatherService : IWeatherService
+{
+    //! Static list of locations
+    static List<Location> locations = new()
+    {
+        new Location { Name = "Redmond", Coordinate = new Coordinate(47.6740, 122.1215), Icon = "fluent_weather_cloudy_20_filled.png", WeatherStation = "USA", Value = "62°" },
+        new Location { Name = "St. Louis", Coordinate = new Coordinate(38.6270, 90.1994), Icon = "fluent_weather_rain_showers_night_20_filled.png", WeatherStation = "USA", Value = "74°" },
+        new Location { Name = "Boston", Coordinate = new Coordinate(42.3601, 71.0589), Icon = "fluent_weather_cloudy_20_filled.png", WeatherStation = "USA", Value = "54°" },
+        new Location { Name = "NYC", Coordinate = new Coordinate(40.7128, 74.0060), Icon = "fluent_weather_cloudy_20_filled.png", WeatherStation = "USA", Value = "63°" },
+        new Location { Name = "Amsterdam", Coordinate = new Coordinate(52.3676, 4.9041), Icon = "fluent_weather_cloudy_20_filled.png", WeatherStation = "USA", Value = "49°" },
+        new Location { Name = "Seoul", Coordinate = new Coordinate(37.5665, 126.9780), Icon = "fluent_weather_cloudy_20_filled.png", WeatherStation = "USA", Value = "56°" },
+        new Location { Name = "Johannesburg", Coordinate = new Coordinate(26.2041, 28.0473), Icon = "fluent_weather_sunny_20_filled.png", WeatherStation = "USA", Value = "62°" },
+        new Location { Name = "Rio", Coordinate = new Coordinate(22.9068, 43.1729), Icon = "fluent_weather_sunny_20_filled.png", WeatherStation = "USA", Value = "79°" },
+        new Location { Name = "Madrid", Coordinate = new Coordinate(40.4168, 3.7038), Icon = "fluent_weather_sunny_20_filled.png", WeatherStation = "USA", Value = "71°" },
+        new Location { Name = "Buenos Aires", Coordinate = new Coordinate(34.6037, 58.3816), Icon = "fluent_weather_sunny_20_filled.png", WeatherStation = "USA", Value = "61°" },
+        new Location { Name = "Punta Cana", Coordinate = new Coordinate(18.5601, 68.3725), Icon = "fluent_weather_rain_showers_day_20_filled.png", WeatherStation = "USA", Value = "84°" },
+        new Location { Name = "Hyderabad", Coordinate = new Coordinate(17.3850, 78.4867), Icon = "fluent_weather_sunny_20_filled.png", WeatherStation = "USA", Value = "84°" },
+        new Location { Name = "San Francisco", Coordinate = new Coordinate(37.7749, 122.4194), Icon = "fluent_weather_sunny_20_filled.png", WeatherStation = "USA", Value = "69°" },
+        new Location { Name = "Nairobi", Coordinate = new Coordinate(1.2921, 36.8219), Icon = "fluent_weather_rain_20_filled.png", WeatherStation = "USA", Value = "67°" },
+        new Location { Name = "Lagos", Coordinate = new Coordinate(6.5244, 3.3792), Icon = "fluent_weather_partly_cloudy.png", WeatherStation = "USA", Value = "83°" }
+    };
+
+    private readonly HttpClient httpClient;
+
+    //! WeatherService HTTP Client
+    public WeatherService(HttpClient httpClient)
+    {
+        this.httpClient = httpClient;
+    }
+
+    /*!
+     * List current static locations
+     * @param query (string) full or partial location name
+     */
+    public Task<IEnumerable<Location>> GetLocations(string query)
+        => Task.FromResult(locations.Where(l => l.Name.Contains(query)));
+
+    /*!
+     * Fetch weather forecast of specified location
+     * @param location (string) location name of a location 
+     */
+    public Task<WeatherResponse> GetWeather(Coordinate location)
+        => httpClient.GetFromJsonAsync<WeatherResponse>($"/weather/{location}");
+}
+```
+
+*Fig. 5: Example Doxygen comments in a C# source file*
+
+Fig. 6 shows the documentation that is generated when Doxygen is run on the example
+code. The majority of the content is extracted directly from the code and the additional
+comments can be seen in the open page that corresponds to the file in Fig. 5. Fig. 6 also 
+demonstrates the use of a navigation panel on the left, a search field at the top right and 
+a generated inheritance diagram. 
+
+![Example documentation generated by Doxygen](../images/doxygen.png)
 
 
-
+Please note that the documentation generated by Doxygen does not need to be stored in
+the repository since it can be generated at any time. You should therefore make sure
+that the working directory is outside the project hierarchy.

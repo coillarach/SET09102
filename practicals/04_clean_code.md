@@ -1,33 +1,23 @@
 # Clean code and documentation
 
-*Under development*
-
 The purpose of this practical is to explore the concept of clean code before putting 
 it into practice in your team project. The exercise comes in several parts. The first
-takes the same form as the code review exercises last week where you are presented 
-with a code snippet and you have to identify the problems with it and suggests fixes.
-The difference is that the problems are all related to the principles of clean code.
-Again, you will accumulate points for the challenges completed which will be added
-to your code review score.
+is to review the code that you wrote in week 3. Have you used the principles of clean
+code? If not, what improvements could you make? 
 
-The second part is to review the code created by someone else in week 2. You need
-to look for all problems, but pay special attention to whether the code adheres to
-the clean code principles or not.
+The second part is to use Doxygen to generate a set of documentation for the entire 
+project. You should embed comments into the code that provide useful information
+about any aspects that are not covered by the code itself.
 
-In the third and last part, you will correct any problems with the code that you
-wrote in week 2 in response to its review comments and add documentation.
+To complete parts one and two, you will need to create a new issue in GitHub and 
+assign it to yourself. Then you need to follow your team workflow to complete the
+changes.
 
-## Clean code exercises
-
-*Under development*
-
-## Code review
-
-*Under development*
-
-## Corrections and documentation
-
-*Under development*
+In the third and last part, you will review someone else's code and provide feedback
+comments. At the same time, someone else will review your changes and if they identify
+any improvements that could be made, you should make the changes and request another 
+review. Once the reviewer is satisfied, you can go ahead and merge your changes into the 
+main branch. 
 
 ## Further reading
 
