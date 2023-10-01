@@ -19,6 +19,14 @@ any improvements that could be made, you should make the changes and request ano
 review. Once the reviewer is satisfied, you can go ahead and merge your changes into the 
 main branch. 
 
+## Process documentation
+
+The final task of this week is to make some decisions as a team as to exactly what
+additional comments to include in the source code. This should be specified in a file 
+called `doxygen.md` in your team documentation folder. One person on the team should 
+create the file but everyone should contribute to the discussion of what it should
+include.
+
 ## Further reading
 
 * [Clean Code](https://napier.primo.exlibrisgroup.com/permalink/44NAP_INST/13v8mut/alma9923581530002111)
