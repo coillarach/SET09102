@@ -20,7 +20,7 @@ use a local SQLite database instead. The first tutorial will take a little over 
 complete and the second will take around 30 minutes. The links are
 
 * [Getting started](https://learn.microsoft.com/en-us/dotnet/maui/tutorials/notes-app/)
-* [Adding a databse](https://learn.microsoft.com/en-us/dotnet/maui/data-cloud/database-sqlite)
+* [Adding a database](https://learn.microsoft.com/en-us/dotnet/maui/data-cloud/database-sqlite)
 
 ## Team workflow
 
