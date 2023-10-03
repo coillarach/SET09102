@@ -1,7 +1,5 @@
 # Establishing a team workflow
 
-*Under development*
-
 The purpose of this practical is to continue with the team startup process. There are
 five main tasks:
 
@@ -34,7 +32,10 @@ and commit it.
 
 ## Import the issue list
 
-*Under development*
+The issues for the project can be fund in the `issues` folder divided up by the week of their 
+release. To transfer an issue to your team repo, copy the content and paste it into the new
+issue dialog. Remember to make use of the people on your team who have used GitHub before if
+you are unclar how to do this.
 
 ## Individual development tasks
 
