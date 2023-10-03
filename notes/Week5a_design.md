@@ -57,7 +57,7 @@ In general, design activities can be split into the following categories
 > Specification of how data is exchanged across component boundaries. This includes the
 > *user interface* (UI) as well as software interfaces such as method signatures and APIs. 
 > UI design techniques such as [wireframes](https://designerrs.com/what-is-wireframing-in-ui-ux-design/)
-> are often used during the [requirements modelling process](17_requirements_modelling.md)
+> are often used during the [requirements modelling process](Week11a_requirements_modelling.md)
 > using tools such as [Figma](https://www.figma.com/). API designs can be described with
 > toolssuch as [Swagger](https://swagger.io/).
 > 
