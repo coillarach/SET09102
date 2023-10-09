@@ -14,9 +14,8 @@ points.
 
 ## Preparation
 
-To create your unit tests, your will need to use 
-[MSTest](https://learn.microsoft.com/en-us/visualstudio/test/getting-started-with-unit-testing?view=vs-2022&tabs=dotnet%2Cmstest)
-which can be installed as a NuGet package.
+To create your unit tests, your will need to use the [xUnit](https://xunit.net/) framework 
+which should be already installed.
 
 If you need to create mock objects, use the 
 [Moq](https://learn.microsoft.com/en-us/shows/visual-studio-toolbox/unit-testing-moq-framework) 
