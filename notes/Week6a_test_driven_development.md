@@ -54,17 +54,8 @@ When the method is implementing an explicit behaviour, there may be specific
 checks that can be carried out and these checks could also be cartured in unit tests. For
 example, the method might be part of an ecommerce system which has a limit on the total cost
 of an order. One or more unit tests could be used to ensure that the value limit is never
-exceeded as items are added to the shopping basket.
-
-The general point is that a single method is likely to have several associated
-unit tests. The clean code practice of using clear an unambiguous names for tests is very
-useful here - it helps to identify exactly what has gone wrong if a test fails. For example,
-we could imagine calling the maximum value test something like `TestMaxBasketValue()` and
-for a while, we might remember what that meant. Once it was just ine test among hundreds, 
-it would help to give it a more descriptive name such as 
-`TestBasketValueDoesNotExceedMaxValueLimit()`. The inconvenience of typing in a long name
-(once), is easily outweighed by the way it explains what has gone wrong when the test
-fails unexpectedly. 
+exceeded as items are added to the shopping basket. The general point is that a single method 
+is likely to have several associated unit tests. 
 
 ## Anatomy of a unit test
 
@@ -101,7 +92,21 @@ the existence of a real software object. For example, if the software under test
 tracker application it would receive its data from the bus company's API. Certain functions
 would only be triggered for certain combinations of API data. To avoid the need to wait for
 such conditions to appear naturally, a mock API could be used that was specifically 
-designed to deliver the required data continuously or at regular intervals.
+designed to deliver the required data continuously or at regular intervals. The following terms
+define slightly different temporary objects for testing:
+
+> _**Fake**_: A fake is a generic term that can be used to describe either a stub or a mock 
+> object. Whether it's a stub or a mock depends on the context in which it's used. So in other 
+> words, a fake can be a stub or a mock.
+> 
+> _**Mock**_: A mock object is a fake object in the system that decides whether or not a unit 
+> test has passed or failed. A mock starts out as a Fake until it's asserted against.
+>
+> _**Stub**_: A stub is a controllable replacement for an existing dependency (or collaborator) 
+> in the system. By using a stub, you can test your code without dealing with the dependency 
+> directly. By default, a stub starts out as a fake.
+> 
+> [Microsoft](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)
 
 ### 2a. Define expected result
 
@@ -173,6 +178,38 @@ removed. This process is commonly called `teardown`, although some frameworks us
 terminology. MSTest, for example, uses *assembly* and *cleanup* instead of *setup* and
 *teardown*.
 
+## Good practice for unit tests
+
+### Test names
+
+The clean code practice of using clear an unambiguous names for tests is very
+useful here - it helps to identify exactly what has gone wrong if a test fails. For example,
+we could imagine calling the maximum value test something like `TestMaxBasketValue()` and
+for a while, we might remember what that meant. Once it was just ine test among hundreds, 
+it would help to give it a more descriptive name such as 
+`TestBasketValueDoesNotExceedMaxValueLimit()`. The inconvenience of typing in a long name
+(once), is easily outweighed by the way it explains what has gone wrong when the test
+fails unexpectedly. 
+
+[Microsoft](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)
+recommends that test names should have three parts:
+
+* The name of the method being tested.
+* The scenario under which it's being tested.
+* The expected behavior when the scenario is invoked.
+
+### Avoid using magic strings
+
+A magic string is a hard-coded literal used with no explanation. The problem with them
+is that they fail to communicate what the test is trying to achieve. If another developer 
+has to spend valuable time working out what the test is doing, it is not well-written.
+
+### KISS
+
+Unit tests should test one thing in a simple manner. That means keeping the number of 
+assertions to a minimum - ideally just one - and avoiding complex control structures such
+as loops and conditionals.
+
 ## Test-driven development
 
 Over time, testing has become increasingly formalised as part of the development process. In
@@ -221,3 +258,4 @@ Please read the chapter this week.
 * Software Testing [(O'Regen, 2022, Ch. 8)](https://link-springer-com.napier.idm.oclc.org/chapter/10.1007/978-3-031-07816-3_8)
 * [TDD vs BDD vs ATDD and other Agile development techniques](https://www.techtarget.com/searchsoftwarequality/tip/TDD-vs-BDD-vs-ATDD-and-other-Agile-development-techniques)
 * Test-driven development [(Beck, 2003)](https://napier.primo.exlibrisgroup.com/permalink/44NAP_INST/n96pef/alma9923574478202111)
+* [Unit testing best practices with .NET Core and .NET Standard](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)
