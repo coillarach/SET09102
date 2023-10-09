@@ -7,7 +7,8 @@
 
 ###### Contents
 
-*Under development*
+1. [Types of testing](#types-of-testing)
+2. [Further reading](#further-reading)
 
 ## Types of testing
 
