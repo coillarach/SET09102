@@ -56,7 +56,7 @@ checkbox next to the name of your original project and click *OK*.
 In the app project's `.csproj` file, you should see lines similar to the snippet below
 
 ```xml
-<ProprtyGroup>
+<PropertyGroup>
     <TargetFrameworks Condition="$([MSBUILD]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.19041.0</TargetFrameworks>
     <OutputType>Exe</OutputType>
 ```
@@ -68,7 +68,7 @@ shown below.
 Your copy may have some comment lines before the `<OutputType>` element - just ignore these.
 
 ```xml
-<ProprtyGroup>
+<PropertyGroup>
     <TargetFrameworks>net7.0</TargetFrameworks>
     <TargetFrameworks Condition="$([MSBUILD]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.19041.0</TargetFrameworks>
     <OutputType>Exe</OutputType>
@@ -80,7 +80,7 @@ the project is configured to generate a `.exe` file, but the test requires a `.d
 otherwise by adding a condition to the `<OutputType>` element as shown below.
 
 ```xml
-<ProprtyGroup>
+<PropertyGroup>
     <TargetFrameworks>net7.0</TargetFrameworks>
     <TargetFrameworks Condition="$([MSBUILD]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.19041.0</TargetFrameworks>
     <OutputType Condition="'$(TargetFramework)' != 'net7.0'">Exe</OutputType>
@@ -90,7 +90,7 @@ Finally, add an additional line after the `<OutputType>` element as shown below.
 of the file remains the same.
 
 ```xml
-<ProprtyGroup>
+<PropertyGroup>
     <TargetFrameworks>net7.0</TargetFrameworks>
     <TargetFrameworks Condition="$([MSBUILD]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.19041.0</TargetFrameworks>
     <OutputType Condition="'$(TargetFramework)' != 'net7.0'">Exe</OutputType>
