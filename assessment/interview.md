@@ -2,22 +2,22 @@
 
 ## Coursework Proforma
 
-|                                                                                  |                                                             |
-|----------------------------------------------------------------------------------|-------------------------------------------------------------|
-| Module number                                                                    | SET09102                                                    |
-| Module title                                                                     | Software Engineering                                        |
-| Module leader                                                                    | Brian Davison                                               |
-| Tutor with responsibility for this Assessment. Student's first point of contact. | As above.                                                   |
-| Assessment                                                                       | Interview                                                   |
-| Weighting                                                                        | 40% of module assessment                                    |
-| Size and/or time limits for assessment                                           | See description below.                                      |
-| Deadline of submission                                                           |                                                             |
-| Arrangements for submission                                                      | Interviews will be held face-to-face a recorded using Teams |
-| Assessment Regulations                                                           | All assessments are subject to the University Regulations   |
-| The requirements for the assessment                                              | See below.                                                  |
-| Special instructions                                                             | N/A                                                         |
-| Return of work and feedback                                                      | Via Moodle.                                                 |
-| Assessment criteria                                                              | See below.                                                  |
+|                                                                                  |                                                               |
+|----------------------------------------------------------------------------------|---------------------------------------------------------------|
+| Module number                                                                    | SET09102                                                      |
+| Module title                                                                     | Software Engineering                                          |
+| Module leader                                                                    | Brian Davison                                                 |
+| Tutor with responsibility for this Assessment. Student's first point of contact. | As above.                                                     |
+| Assessment                                                                       | Interview                                                     |
+| Weighting                                                                        | 40% of module assessment                                      |
+| Size and/or time limits for assessment                                           | See description below.                                        |
+| Deadline of submission                                                           |                                                               |
+| Arrangements for submission                                                      | Interviews will be held face-to-face and recorded using Teams |
+| Assessment Regulations                                                           | All assessments are subject to the University Regulations     |
+| The requirements for the assessment                                              | See below.                                                    |
+| Special instructions                                                             | N/A                                                           |
+| Return of work and feedback                                                      | Via Moodle.                                                   |
+| Assessment criteria                                                              | See below.                                                    |
 
 ## Assessment Specification
 
