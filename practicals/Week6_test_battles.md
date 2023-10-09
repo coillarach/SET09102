@@ -22,14 +22,16 @@ If you need to create mock objects, use the
 [Moq](https://learn.microsoft.com/en-us/shows/visual-studio-toolbox/unit-testing-moq-framework) 
 framework which can also be installed with NuGet.
 
-Each team will need to clone the template repo and ensure that the whole team can access
-it. However, you should not make your repo public because that would make them accessible
-to the other team.
+Each team will need to clone the [template repo](https://github.com/edinburgh-napier/SET09102_testing/tree/master) 
+and ensure that the whole team can access it. However, you should not make your repo public 
+because that would make them accessible to the other team.
 
 Make sure that your repo is accessible to the module tutors.
 
 There are four teams in total. For this exercise, they will be paired up with the pairing 
 decided at random.
+
+The repo contains a list of English words in the directory `Resources/raw/`.
 
 ## Rules of engagement
 
