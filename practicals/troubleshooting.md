@@ -86,20 +86,31 @@ otherwise by adding a condition to the `<OutputType>` element as shown below.
     <OutputType Condition="'$(TargetFramework)' != 'net7.0'">Exe</OutputType>
 ```
 
-Finally, add an additional line after the `<OutputType>` element as shown below. The rest
+### Update the test project's `.csproj` file
+
+Now open the test projet's `.csproj` file and locate the following lines.
+
+```xml
+<PropertyGroup>
+    <TargetFrameworks>net7.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+```
+
+Add an additional line after the `<Nullable>` element as shown below. The rest
 of the file remains the same.
 
 ```xml
 <PropertyGroup>
     <TargetFrameworks>net7.0</TargetFrameworks>
-    <TargetFrameworks Condition="$([MSBUILD]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.19041.0</TargetFrameworks>
-    <OutputType Condition="'$(TargetFramework)' != 'net7.0'">Exe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
     <UseMaui>true</UseMaui>
 ```
 
 ### Add required dependencies to the app project
 
-xUnit needs additional reqources to be able to access the MAUI elements. Right-click the
+xUnit needs additional resources to be able to access MAUI elements. Right-click the
 app project's *Dependencies* folder in the solution explorer and select _**Manage NuGet
 Packages...**_. Use the search field to locate and add the following two packages:
 
