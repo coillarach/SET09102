@@ -25,7 +25,7 @@ follow these steps:
 
 <details>
 <summary>Setting up unit tests in Visual Studio</summary>
-
+<br/>
 This is not as simple as it first appears because there are several unit test frameworks 
 available with different dependencies. .NET MAUI requires the .NET 7.0 build framework and
 so we need a test framework that is compatible. These notes explain how to install the 
@@ -120,5 +120,71 @@ Packages...**_. Use the search field to locate and add the following two package
 You will need to reload the project for the changes to take effect (restarting Visual
 Studio will do this). Afterwards, you should be able to reference code from the app
 project in your unit tests.
+
+</details>
+
+<details>
+<summary>Adding app and test projects to the same git repo</summary>
+<br/>
+By default, Visual Studio creates a new folder of its own in a standard root directory.
+(On Windows, this is `C:\Users\&lt;your username&gt;\source\repos`). When you create a
+git repository for a project, the project folder is used a the repo root folder.
+
+When you create a test project for your app, Visual Studio adds it as a sibling to the
+app project, and for that reason it cannot be included in the original git repo.
+
+One solution is to rearrange the folder structure as shown below.
+
+```
+repos
+└───HangmanSolution/
+    ├───Hangman/
+    ├───TestHangman/
+    └───Hangman.sln
+```
+
+The steps to rearrange your folders are as follows.
+
+### Remove all existing git repos
+
+To remove a local repo, use your OS file explorer or a command windows to remove the
+following files from the project root directory
+
+    .git
+    .gitattributes
+    .gitignore
+
+### Remove projects from solution
+
+In Visual Studio, right-click on both projects in the solution explorer and select
+_**Remove**_ from the context menu. This removes the project from the solution, but
+does not delete the underlying directory.
+
+Once the projects have been removed, save the solution and close Visual Studio.
+
+### Rearrange directories
+
+In your OS file explorer or a command window, create the hierarchy shown above. The
+steps are
+
+1. Create the solution directory
+2. Move both project directories into the solution directory
+3. Move the solution file from its original location inside one of the project directories
+   into the solution directory
+
+### Add the projects back into the solution
+
+Open Visual Studio and select the option to open an existing solution. Choose the solution
+file in the solution directory.
+
+In the solution explorer, right-click the solution and select _**Add/Existing Project...**_.
+Select the `.csproj` for one of the projects and click *Open*. Do the same for the second
+project.
+
+### Recreate the git repo
+
+In Visual Studio, select _**Create Git Repository**_ from the _**Git**_ menu. The 
+solution folder is automatically selected as the location for the new repo and this
+includes both of the projects.
 
 </details>
