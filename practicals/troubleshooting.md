@@ -128,7 +128,7 @@ project in your unit tests.
 <br/>
 By default, Visual Studio creates a new folder of its own in a standard root directory.
 (On Windows, this is `C:\Users\&lt;your username&gt;\source\repos`). When you create a
-git repository for a project, the project folder is used a the repo root folder.
+git repository for a project, the project folder is used as the repo root folder.
 
 When you create a test project for your app, Visual Studio adds it as a sibling to the
 app project, and for that reason it cannot be included in the original git repo.
