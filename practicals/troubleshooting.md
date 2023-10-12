@@ -190,6 +190,9 @@ namespace TestHangman
 }
 ```
 
+**NB**: Please note that to be accessible to the test project, the methods in the app
+project need to be declared as `public`.
+
 </details>
 
 <details>
