@@ -29,7 +29,17 @@ follow these steps:
 This is not as simple as it first appears because there are several unit test frameworks 
 available with different dependencies. .NET MAUI requires the .NET 7.0 build framework and
 so we need a test framework that is compatible. These notes explain how to install the 
-[xUnit](https://xunit.net/) framework and use it to create a test.
+[xUnit](https://xunit.net/) framework and use it to create a test. Unless otherwise
+specified, default options are accepted wherever they exist. One implication of that is that 
+the project folders are assumed to be siblings within the standard `repos` folder.
+
+### Prepare project
+
+There are three unnecessary `using` statements ate the start of the `GamePage.xaml.cs` file.
+Usually, they are just ignored, but once a test project is included in the solution, they
+cause import errors. These lines need to be removed.
+
+Check to make sure the app project builds and runs correctly before carrying on.
 
 ### Create the test project
 
@@ -51,9 +61,13 @@ The next step is to add the main project as a dependency. Right-click the *Depen
 folder and select _**Add Project Reference...**_. When the dialog appears, click the
 checkbox next to the name of your original project and click *OK*.
 
+At this stage, you may see warning symbols appear against the app project in the test project's
+dependencies. These will disappear once the next step has been completed.
+
 ### Update the app project's `.csproj` file
 
-In the app project's `.csproj` file, you should see lines similar to the snippet below
+Open the app project's `.cproj` file by double-clicking the project item in the solution
+explorer. You should see lines similar to the snippet below
 
 ```xml
 <PropertyGroup>
@@ -76,7 +90,7 @@ Your copy may have some comment lines before the `<OutputType>` element - just i
 
 There is one more change to this file, and that is to modify the output type. Currently,
 the project is configured to generate a `.exe` file, but the test requires a `.dll`. Because
-`.dll` is rhe default, we can create that output type when running a test and a `.exe` 
+`.dll` is the default, we can create that output type when running a test and a `.exe` 
 otherwise by adding a condition to the `<OutputType>` element as shown below.
 
 ```xml
@@ -86,9 +100,12 @@ otherwise by adding a condition to the `<OutputType>` element as shown below.
     <OutputType Condition="'$(TargetFramework)' != 'net7.0'">Exe</OutputType>
 ```
 
+After making the changes, save the file and reload the project when prompted.
+
 ### Update the test project's `.csproj` file
 
-Now open the test projet's `.csproj` file and locate the following lines.
+Now open the test project's `.csproj` file by double-clicking the solution explorer item
+and locate the following lines.
 
 ```xml
 <PropertyGroup>
@@ -108,18 +125,70 @@ of the file remains the same.
     <UseMaui>true</UseMaui>
 ```
 
-### Add required dependencies to the app project
-
-xUnit needs additional resources to be able to access MAUI elements. Right-click the
-app project's *Dependencies* folder in the solution explorer and select _**Manage NuGet
-Packages...**_. Use the search field to locate and add the following two packages:
-
-> * **Microsoft.Maui.Dependencies**
-> * **Microsoft.Maui.Extensions**
+Save the file and reload the project when prompted.
 
 You will need to reload the project for the changes to take effect (restarting Visual
 Studio will do this). Afterwards, you should be able to reference code from the app
 project in your unit tests.
+
+### Potential issues
+
+<details>
+<summary>Deployment error</summary>
+Because we added a new target framework to the project (`net7.0`), Visual Studio has two
+targets to choose from at the point you tell it to run the app. If yoou see the error below, 
+it has chosen the wrong one:
+
+![VS deployment error](../images/deploy_error_message.png)
+
+To fix the problem, select the Windows framework option in the debug target field in the 
+Visual Studio toolbar as illustrated below.
+
+![VS debug target selection](../images/vs_target_framework.png)
+
+</details>
+
+<details>
+<summary>Namespace not found error</summary>
+<br/>
+If you see error like those shown below, your test project folder is nested inside your
+app project folder. This will not work - they need to be siblings in the same parent folder.
+
+![Errors due to nested projects](../images/nesting_errors.png)
+
+To fix this problem
+
+1. Use the solution explorer to remove the test project from the solution
+2. Remove the test project folder from the file system using your operating system file explorer
+3. Back in the solution explorer, recreate the test project by right-clicking on the solution
+   folder. Pay close attention to the part where you specify the location for the new project.
+
+</details>
+
+### Example test code
+
+The example below shows how you would configure a test assuming that there is a method
+called `DumbMethod()` in the `GamePage` class:
+
+```c#
+using Hangman;
+
+namespace TestHangman
+{
+    public class UnitTest1
+    {
+        [Fact]
+        public void Test1()
+        {
+            string gameType = "Easy";
+
+            GamePage gamePage = new GamePage(gameType);
+
+            Assert.Equal(1, gamePage.DumbMethod());
+        }
+    }
+}
+```
 
 </details>
 
