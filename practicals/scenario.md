@@ -136,8 +136,22 @@ team will be provided with the following in week 3 of the trimester
 
 As a team, you will need to work through the backlog of user stories as directed during 
 the practical sessions. Please note that there is no benefit to doing a larger number 
-of users stories than is required. All the marks are for product and process quality, 
+of user stories than is required. All the marks are for product and process quality, 
 not quantity.
+
+To help with your planning, an 
+[entity relationship diagram](undac_db.drawio)
+is available that needs to downloaded and opened using [draw.io](https://app.diagrams.net/). 
+Once included in your GitHub repository, it can be opened and edited directly using the
+tools' [GitHub mode](https://github.com/jgraph/drawio-github). For convenience, there is
+also a [png version](undac_db.drawio.png) of the original structure.
+
+The database structure is in draft form and may need to be altered as the project 
+progresses. The structure is quite large and it is recommended that you concentrate on 
+just those table that are impacted by the specific task you are working on. For the time 
+being, please assume that all database operations are carried out locally on an SQLite 
+instance.
+
 
 ## Links
 
