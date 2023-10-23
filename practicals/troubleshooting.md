@@ -136,7 +136,7 @@ project in your unit tests.
 <details>
 <summary>Deployment error</summary>
 Because we added a new target framework to the project (`net7.0`), Visual Studio has two
-targets to choose from at the point you tell it to run the app. If yoou see the error below, 
+targets to choose from at the point you tell it to run the app. If you see the error below, 
 it has chosen the wrong one:
 
 ![VS deployment error](../images/deploy_error_message.png)
