@@ -2,7 +2,7 @@
 
 ### Please copy and paste the details below to add them as new issues to your GitHub repository.
 
-You can either decide which issue each person will in advance, and then each person creates their
+You can either decide which issue each person will do in advance, and then each person creates their
 own issue, or have one person create the issues for the whole team.
 
 Please make sure that anyone on the team who needs support has someone they can call on.
