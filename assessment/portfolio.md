@@ -1,6 +1,7 @@
 # Coursework Assessment Details
 
-## Coursework Proforma
+<details>
+<summary>Coursework Proforma</summary>
 
 |                                                                                  |                                                                                    |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
@@ -18,6 +19,7 @@
 | Special instructions                                                             | N/A                                                                                |
 | Return of work and feedback                                                      | Face-to-face via code reviews and via Moodle.                                      |
 | Assessment criteria                                                              | See below.                                                                         |
+</details>
 
 ## Coursework Specification
 

@@ -1,6 +1,7 @@
 # Coursework Assessment Details
 
-## Coursework Proforma
+<details>
+<summary>Coursework Proforma</summary>
 
 |                                                                                  |                                                               |
 |----------------------------------------------------------------------------------|---------------------------------------------------------------|
@@ -19,12 +20,14 @@
 | Return of work and feedback                                                      | Via Moodle.                                                   |
 | Assessment criteria                                                              | See below.                                                    |
 
+</details>
+
 ## Assessment Specification
 
 The purpose of this assessment is to explore your understanding of the module content
 using your portfolio as evidence. The interview will last approximately 15 minutes
 during which time a tutor will ask you questions based on your portfolio that are 
-designed to test your achievement of the module learning outcomes, i.e. you ability
+designed to test your achievement of the module learning outcomes, i.e. your ability
 to
 
 1. Explain software quality in both formal and informal terms

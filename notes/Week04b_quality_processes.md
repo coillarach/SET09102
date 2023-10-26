@@ -88,7 +88,7 @@ The checks in Fig. 2 can be summarised as follows:
 > **Unit testing**
 > 
 > The creation of code by the developer for the automatic testing of application code 
-> (covered in the [Test-driven development](Week6a_test_driven_development.md) section)
+> (covered in the [Test-driven development](Week06a_test_driven_development.md) section)
 > 
 > **Static code analysis**
 > 
@@ -206,9 +206,9 @@ required.
 * Have you checked the wider impact of your code changes?
 * Have you applied [coding conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) 
   for the language you are working in?
-* Have you applied generic software engineering principles such as [SOLID](Week4a_quality_code.md#solid)?
-* Have you checked for [code smells](Week4a_quality_code.md#code-smells)?
-* Have you applied the principles of [Clean Code](Week4a_quality_code.md#clean-code)?
+* Have you applied generic software engineering principles such as [SOLID](Week04a_quality_code.md#solid)?
+* Have you checked for [code smells](Week04a_quality_code.md#code-smells)?
+* Have you applied the principles of [Clean Code](Week04a_quality_code.md#clean-code)?
 * Have you created and run sufficient unit tests?
 * Have you checked the hints provided by the static analysis tools in the IDE?
 * Have you used the feedback available to sanity check your code?
