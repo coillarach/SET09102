@@ -43,7 +43,7 @@ function showSlides(n) {
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  slides[slideIndex].style.display = "block";
+  slides[slideIndex].style.display = "flex";
 }
 
 function slideShow() {

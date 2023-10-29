@@ -2,7 +2,6 @@
 
 /* Slideshow container */
 .slideshow-container {
-  height: 100vh;
   position: relative;
   margin: auto;
 }
@@ -10,10 +9,13 @@
 /* Hide the images by default */
 .mySlides {
   display: none;
+  justify-content: center;
+  width: 100%;
 }
 
 .mySlides img {
-  width: 100%;
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
 /* Next & previous buttons */
