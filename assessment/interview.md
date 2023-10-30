@@ -106,14 +106,14 @@ To satisfy this leaning outcome, you need to be able to explain what the term *q
 means in the context of software engineering. There are informal explanations that refer
 to some of the non-functional characteristics of software systems such as *security*,
 *maintainability*, etc. If you want to use these concepts in your explanation, you should
-be prepared to explain what they mean, to provide examples and discuss their implications
-for personal and team-oriented development processes and procedures.
+be prepared to explain what they mean, to provide examples and discuss the characteristics
+of code that enhance them.
 
 There are also formal definitions of quality that can be found in the relevant standards
 documents. If you want to make reference to these definitions, you should be prepared to
 explain the source of the standard (e.g. international standards organisation, industry
-consortium, etc.), and to discuss their implications for development processes and tool
-adoption.
+consortium, etc.), and to discuss their impact on the way application code is written
+and structured.
 
 <details>
 <summary>Relevant notes sections</summary>
