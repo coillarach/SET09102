@@ -75,3 +75,88 @@ come up during your interview, but there will also be other questions not on the
 This is to ensure that students do not simply memorise prepared answers. The interview
 is intended to provide an accurate picture of your knowledge and understanding of the 
 module content and that requires a certain degree of spontaneity.
+
+## Learning outcomes
+
+This section provides advice specific to each of the four learning outcomes with examples of 
+possible interview questions. Please not though that these are example questions only - you 
+may get other similar questions that are not on the list. When answering any question there 
+are some points to remember:
+
+* A one-word or one-sentence answer is not enough. You must be prepared elaborate your
+  response with references to background theory, practical examples, material from
+  your portfolio, etc. Remember that the point of the exercise is to demonstrate how
+  much you know about a topic.
+* Using correct terminology is much better than using informal language. Being confident 
+  in your use of appropriate terms helps to show the depth of your understanding. Informal
+  language, on the other hand, suggests that you only have a vague understanding.
+* Be precise in fitting your answer to the question. If you give an answer that does not
+  correspond directly to the question, it can be interpreted as a lack of understanding
+  of the topic in question. If you need clarification on the meaning of a question, you
+  should ask.
+* Try to structure your responses well. If you like, you may spend a few seconds making 
+  notes before answering. This must be done on paper, however - you should not reply on a 
+  web browser or any other online material to provide inspiration for your answer. Your
+  answer should highlight one or more main points and come to a clear conclusion without
+  rambling.
+
+### 1. Explain software quality in both formal and informal terms
+
+To satisfy this leaning outcome, you need to be able to explain what the term *quality*
+means in the context of software engineering. There are informal explanations that refer
+to some of the non-functional characteristics of software systems such as *security*,
+*maintainability*, etc. If you want to use these concepts in your explanation, you should
+be prepared to explain what they mean, to provide examples and discuss their implications
+for personal and team-oriented development processes and procedures.
+
+There are also formal definitions of quality that can be found in the relevant standards
+documents. If you want to make reference to these definitions, you should be prepared to
+explain the source of the standard (e.g. international standards organisation, industry
+consortium, etc.), and to discuss their implications for development processes and tool
+adoption.
+
+<details>
+<summary>Relevant notes sections</summary>
+
+* [Quality: Code](notes/Week04a_quality_code.md)
+* [Quality: Processes](notes/Week04b_quality_processes.md)
+* [Lifecycle and development models](notes/Week03a_lifecycle.md)
+* [Software design](notes/Week05a_design.md)
+* [Documentation](notes/Week05b_documentation.md) 
+* [Team workflows](notes/Week03b_workflow.md)
+* [Test-driven development](notes/Week06a_test_driven_development.md)
+* [Software testing](notes/Week06b_testing.md) 
+</details>
+
+<details>
+<summary>Relevant portfolio items</summary>
+
+* [Workflow](https://github.com/edinburgh-napier/SET09102_portfolio/blob/main/week03_workflow.md)
+* [Code review](https://github.com/edinburgh-napier/SET09102_portfolio/blob/main/week04_code_review.md)
+* [Documentation](https://github.com/edinburgh-napier/SET09102_portfolio/blob/main/week05_documentation.md)
+* [Testing](https://github.com/edinburgh-napier/SET09102_portfolio/blob/main/week06_testing.md)
+</details>
+
+<details>
+<summary>Example questions</summary>
+
+* How would you explain software quality to a junior member of your development team?
+* How would you explain software quality to the project client?
+* How would you explain software quality to a senior manager in your company?
+* Choose a specific software engineering principle and explain how it enhances code quality
+* Give an example of a code smell, its possible implications and how to eliminate it
+* Looking at your final portfolio entry, in what ways have you attempted to maximise the
+  quality of the code?
+</details>
+
+### 2. Apply design and development practices to optimise the quality of software systems
+
+*Coming in week 10*
+
+### 3. Evaluate software quality
+
+*Coming in week 11*
+
+### 4. Critique software development processes
+
+*Coming in week 12*
