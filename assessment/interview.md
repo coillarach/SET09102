@@ -118,6 +118,7 @@ adoption.
 <details>
 <summary>Relevant notes sections</summary>
 <br/>
+
 * [Quality: Code](notes/Week04a_quality_code.md)
 * [Quality: Processes](notes/Week04b_quality_processes.md)
 * [Lifecycle and development models](notes/Week03a_lifecycle.md)
@@ -131,6 +132,7 @@ adoption.
 <details>
 <summary>Relevant portfolio items</summary>
 <br/>
+
 * [Workflow](https://github.com/edinburgh-napier/SET09102_portfolio/blob/main/week03_workflow.md)
 * [Code review](https://github.com/edinburgh-napier/SET09102_portfolio/blob/main/week04_code_review.md)
 * [Documentation](https://github.com/edinburgh-napier/SET09102_portfolio/blob/main/week05_documentation.md)
@@ -140,6 +142,7 @@ adoption.
 <details>
 <summary>Example questions</summary>
 <br/>
+
 * How would you explain software quality to a junior member of your development team?
 * How would you explain software quality to the project client?
 * How would you explain software quality to a senior manager in your company?
