@@ -119,14 +119,14 @@ and structured.
 <summary>Relevant notes sections</summary>
 <br/>
 
-* [Quality: Code](notes/Week04a_quality_code.md)
-* [Quality: Processes](notes/Week04b_quality_processes.md)
-* [Lifecycle and development models](notes/Week03a_lifecycle.md)
-* [Software design](notes/Week05a_design.md)
-* [Documentation](notes/Week05b_documentation.md) 
-* [Team workflows](notes/Week03b_workflow.md)
-* [Test-driven development](notes/Week06a_test_driven_development.md)
-* [Software testing](notes/Week06b_testing.md) 
+* [Quality: Code](../notes/Week04a_quality_code.md)
+* [Quality: Processes](../notes/Week04b_quality_processes.md)
+* [Lifecycle and development models](../notes/Week03a_lifecycle.md)
+* [Software design](../notes/Week05a_design.md)
+* [Documentation](../notes/Week05b_documentation.md) 
+* [Team workflows](../notes/Week03b_workflow.md)
+* [Test-driven development](../Week06a_test_driven_development.md)
+* [Software testing](../notes/Week06b_testing.md) 
 </details>
 
 <details>
