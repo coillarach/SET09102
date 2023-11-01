@@ -2,7 +2,7 @@
 
 |                                                            |                                                       |
 |------------------------------------------------------------|-------------------------------------------------------|
-| ![Hendrith Vanlon Smith Jr.](../images/hendrith_smith.png) | <h3>In a world where ChatGPT and other AI apps can do many things humans once needed to do themselves or needed to hire other humans to do, the question of ‘how will I add value?’ becomes more relevant than ever.</h3><br/>*Hendrith Vanlon Smith Jr.* |
+| ![Hendrith Vanlon Smith Jr.](../images/hendrith_smith.png) | <h3>In a world where ChatGPT and other AI apps can do many things <br/>humans once needed to do themselves or needed to hire <br/>other humans to do, the question of ‘how will I add value?’ <br/>becomes more relevant than ever.</h3><br/>*Hendrith Vanlon Smith Jr.* |
 
 ###### Contents
 
