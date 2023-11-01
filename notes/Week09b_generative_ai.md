@@ -167,9 +167,9 @@ level of skill is clear. The following recommendations should help to do that an
 avoid any accusations of academic misconduct.
 
 1. When AI tools have been used, this must be stated at the outset.
-2. The software development process should be clearly described, detailed the
+2. The software development process should be clearly described, detailing the
    additional work that has gone into the project on top of the generated code. This
-   could be presented in the form of a flow diagram like the one in Fig. 2.
+   could be presented with the help of a flow diagram like the one in Fig. 2.
 3. The original generated code should be available for inspection and comparison with the 
    final version.
 4. Provide a justified rationale for the modifications made to the generated code based 
@@ -182,7 +182,7 @@ avoid any accusations of academic misconduct.
 
 ![Generative development process](../images/generative_development.png)
 
-*Fig. 2. A generative development process*
+*Fig. 2. An outline generative development process*
 
 The final word goes to two German researchers, authors of a paper entitled, *How ChatGPT 
 Will Change Software Engineering Education*:

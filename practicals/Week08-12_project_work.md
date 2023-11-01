@@ -1,6 +1,6 @@
 # Project work
 
-In weeks 6 - 8, the practical exercise is directly related to the team project. 
+In weeks 6 - 12, the practical exercise is directly related to the team project. 
 
 A series of issues have been provided in the form of  
 [user stories](https://www.atlassian.com/agile/project-management/user-stories) related

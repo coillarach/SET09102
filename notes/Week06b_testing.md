@@ -65,7 +65,7 @@ carried out by security professionals. Although this type
 of test is not carried out by software engineers, they are again the ones who will be
 required to fix any issues. In general, it is better to avoid security issues by adopting
 secure development practices from the outset as discussed in the 
-[secure software developmentsection](Week10b_secure_software_development.md).
+[secure software developmentsection](Week11b_secure_software_development.md).
 
 ### Usability testing
 
