@@ -260,3 +260,40 @@ solution folder is automatically selected as the location for the new repo and t
 includes both of the projects.
 
 </details>
+
+<details>
+<summary>InitializeComponent does not exist in the current context</summary>
+<br/>
+
+Did you create an item and then rename it? If so, there may be references to the old name in
+either the xaml file, the cs file or both. Please check and correct.
+
+If this is not what happen, delete the last item you added to the project and recreate it
+taking care to name it correctly in the initial dialog.
+</details>
+
+<details>
+<summary>Error AMM000</summary>
+<br/>
+This error indicates a conflict related to the current API level configured in the 
+_**AndroidManifest.xml**_ file. You can find the file under _**Platforms -> Android -> Resources**_.
+
+Double-click the file to open a configuration page. Scroll down to the section labelled
+*Application target* and set the minimum API level appropriately (usually level 21).
+
+Save the file, clean the solution and rebuild it.
+</details>
+
+<details>
+<summary>Resource mipmap/appicon not found</summary>
+<br/>
+This error indicates a temporary issue with the Android manifest file. You can find the file under 
+_**Platforms -> Android -> Resources**_.
+
+Double-click the file to open a configuration page. Scroll down to the section labelled
+*Application details*. Unset the application icon by selecting the blank entry in the dropdown
+list. Save the file, clean the solution and rebuild it.
+
+This should remove the error. You should now be able to reselect the icon in the dropdown list, and
+rebuild the solution as described above.
+</details>

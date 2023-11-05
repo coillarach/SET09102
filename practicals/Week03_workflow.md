@@ -11,14 +11,10 @@ five main tasks:
 
 ## Getting started with .NET MAUI
 
-To get familiar with C# development using MAUI, you need to follow two Microsoft
-tutorials. The first takes you through the steps to create a simple notes application which
-stores notes as text files. The second tutorial shows you how to upgrade your app to
-use a local SQLite database instead. The first tutorial will take a little over an hour to 
-complete and the second will take around 30 minutes. The links are
+To get familiar with C# development using MAUI, you need to follow the tutorials that you will
+find in the _**Tutorials**_ folder. They use the example of a simple notes application which is
+developed in a series of steps to use the MVVM pattern and an SQLite database.
 
-* [Getting started](https://learn.microsoft.com/en-us/dotnet/maui/tutorials/notes-app/)
-* [Adding a database](https://learn.microsoft.com/en-us/dotnet/maui/data-cloud/database-sqlite)
 
 ## Team workflow
 
