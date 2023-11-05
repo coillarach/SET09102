@@ -15,6 +15,16 @@ manage access to the database.
 
 ##### Contents
 
+1. [Preparation](#preparation)
+2. [Install NuGet packages](#install-nuget-packages)
+3. [Change the way the binding context is set](#change-the-way-the-binding-context-is-set)
+4. [Configure app constants](#configure-app-constants)
+5. [Create a database context](#create-a-database-context)
+6. [Create the Notes service](#create-the-notes-service)
+7. [Update the _**Note**_ model](#update-the-note-model)
+8. [Updating the viewmodels](#updating-the-viewmodels)
+9. [Updating the views](#updating-the-views)
+10. [Conclusion](#conclusion)
 
 ## Preparation
 
