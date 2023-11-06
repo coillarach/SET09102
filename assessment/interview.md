@@ -154,7 +154,53 @@ and structured.
 
 ### 2. Apply design and development practices to optimise the quality of software systems
 
-*Coming in week 10*
+Whereas learning outcome 1 is about the meaning of the term *quality* in the context of 
+software engineering, this one is about how an individual developer or a development team
+can maximise the quality of their output. That is, it is about *practice* and *process*.
+There are several dimensions that can be explored to satisfy this learning outcome including
+
+* Personal workflow definition
+* Team workflow and coordination
+* Making use of appropriate tools
+* Demonstrating knowledge of standards and frameworks
+
+<details>
+<summary>Relevant notes sections</summary>
+<br/>
+
+* [Quality: Processes](../notes/Week04b_quality_processes.md)
+* [Lifecycle and development models](../notes/Week03a_lifecycle.md)
+* [Software design](../notes/Week05a_design.md)
+* [Documentation](../notes/Week05b_documentation.md) 
+* [Team workflows](../notes/Week03b_workflow.md)
+* [Test-driven development](../Week06a_test_driven_development.md)
+* [Software testing](../notes/Week06b_testing.md) 
+* [Know your tools](../notes/Week08a_tools.md)
+* [Mocking and testing](../notes/Week08b_mocking.md)
+</details>
+
+<details>
+<summary>Relevant portfolio items</summary>
+<br/>
+
+* [Workflow](https://github.com/edinburgh-napier/SET09102_portfolio/blob/main/week03_workflow.md)
+* [Code review](https://github.com/edinburgh-napier/SET09102_portfolio/blob/main/week04_code_review.md)
+* [Documentation](https://github.com/edinburgh-napier/SET09102_portfolio/blob/main/week05_documentation.md)
+* [Testing](https://github.com/edinburgh-napier/SET09102_portfolio/blob/main/week06_testing.md)
+* [Project work](../practicals/Week08-12_project_work.md)
+</details>
+
+<details>
+<summary>Example questions</summary>
+<br/>
+
+* What personal routines do you use to ensure the quaity of your work?
+* What are the major elements of a team workflow that help to ensure the quality of the product?
+* What features of IDEs can be used to maximise the quality of the software produced?
+* What aspects of your own practice have improved the most over the course of the module?
+* Looking at your final portfolio entry, in what ways have you attempted to maximise the
+  quality of the code?
+</details>
 
 ### 3. Evaluate software quality
 
