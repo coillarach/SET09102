@@ -11,6 +11,7 @@
 3. [Design by contract](#design-by-contract)
 4. [Static analysis tools](#static-analysis-tools)
 5. [Integrating security engineering into Agile](#integrating-security-engineering-into-agile)
+6. [Further reading](#further-reading)
 
 ## Introduction
 
@@ -238,3 +239,8 @@ security issues; however, another explanation might be that SAST tools such as t
 are not widely used. The authors also note the mismatch between the perceived value of hardening
 sprints in which the focus is on improving security and their low uptake. They suggest that hardening 
 sprints might be difficult to introduce without breaking agile's flexible practices.
+
+## Further reading
+
+* Design patterns : elements of reusable object-oriented software ([Gamma et al., 1995](https://napier.primo.exlibrisgroup.com/permalink/44NAP_INST/n96pef/alma9923574391402111))
+* Security in agile software development: A practitioner survey ([Rindell et al., 2021](https://doi.org/10.1016/j.infsof.2020.106488))
