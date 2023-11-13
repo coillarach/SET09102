@@ -139,7 +139,7 @@ class Program
 ```
 
 The same checks could be carried out using assertions as shown below. Note that `Trace.Assert()`
-is used rather than `Debug Assert()` since `Debug` references are removed from production code.
+is used rather than `Debug.Assert()` since `Debug` references are removed from production code.
 
 ```c#
 #define TRACE
@@ -244,3 +244,4 @@ sprints might be difficult to introduce without breaking agile's flexible practi
 
 * Design patterns : elements of reusable object-oriented software ([Gamma et al., 1995](https://napier.primo.exlibrisgroup.com/permalink/44NAP_INST/n96pef/alma9923574391402111))
 * Security in agile software development: A practitioner survey ([Rindell et al., 2021](https://doi.org/10.1016/j.infsof.2020.106488))
+* [What is DevSecOps?](https://www.microsoft.com/en-us/security/business/security-101/what-is-devsecops)
