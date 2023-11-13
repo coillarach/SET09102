@@ -194,7 +194,7 @@ There are several dimensions that can be explored to satisfy this learning outco
 <summary>Example questions</summary>
 <br/>
 
-* What personal routines do you use to ensure the quaity of your work?
+* What personal routines do you use to ensure the quality of your work?
 * What are the major elements of a team workflow that help to ensure the quality of the product?
 * What features of IDEs can be used to maximise the quality of the software produced?
 * What aspects of your own practice have improved the most over the course of the module?
@@ -204,7 +204,40 @@ There are several dimensions that can be explored to satisfy this learning outco
 
 ### 3. Evaluate software quality
 
-*Coming in week 11*
+To be able to manage something, the first step is to be able to measure it. This learning
+outcome is related to your understanding of how code quality can be measured. You should be 
+prepared to describe relevant metrics and processes, and to discuss their usefulness and
+limitations. You should include *qualitative* evaluation criteria such as *readability*
+as well as *quantitative* metrics such as *cyclomatic complexity*.
+
+<details>
+<summary>Relevant notes sections</summary>
+<br/>
+
+* [Quality: Code](../notes/Week04a_quality_code.md)
+* [Quality: Processes](../notes/Week04b_quality_processes.md)
+* [Quality evaluation](../notes/Week11c_evaluation.md)
+* [Team workflows](../notes/Week03b_workflow.md)
+* [Know your tools](../notes/Week08a_tools.md)
+</details>
+
+<details>
+<summary>Relevant portfolio items</summary>
+<br/>
+
+* [Workflow](https://github.com/edinburgh-napier/SET09102_portfolio/blob/main/week03_workflow.md)
+* [Code review](https://github.com/edinburgh-napier/SET09102_portfolio/blob/main/week04_code_review.md)
+* [Project work](../practicals/Week08-12_project_work.md)
+</details>
+
+<details>
+<summary>Example questions</summary>
+<br/>
+
+* Give an example of a quantitative code quality metric and explain its use
+* Give an example of a qualitative code quality metric and explain its use
+* Contrast the usefulness of two different code quality metrics
+</details>
 
 ### 4. Critique software development processes
 
