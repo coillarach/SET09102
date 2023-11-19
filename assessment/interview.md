@@ -241,4 +241,41 @@ as well as *quantitative* metrics such as *cyclomatic complexity*.
 
 ### 4. Critique software development processes
 
-*Coming in week 12*
+This learning outcome draws on the reflective commentary from your portfolio entries. It tests
+your ability to identify limitations of existing processes, and to identify potential 
+improvements. It also tests your knowledge of coordination tools such as GitHub that can be
+used to streamline development process. To answer a question in this area, you can draw on 
+personal experience working with your team, and you can also use theoretical material on 
+process management such as branching strategies and DevOps. Both of these are valuable, but 
+the idea is to be able to combine the two.
+
+<details>
+<summary>Relevant notes sections</summary>
+<br/>
+
+* [Development lifecycles](../notes/Week03a_lifecycle.md)
+* [Team workflows](../notes/Week03b_workflow.md)
+* [Quality: Processes](../notes/Week04b_quality_processes.md)
+</details>
+
+<details>
+<summary>Relevant portfolio items</summary>
+<br/>
+
+* [Workflow](https://github.com/edinburgh-napier/SET09102_portfolio/blob/main/week03_workflow.md)
+* [Code review](https://github.com/edinburgh-napier/SET09102_portfolio/blob/main/week04_code_review.md)
+* [Project work](../practicals/Week08-12_project_work.md)
+</details>
+
+<details>
+<summary>Example questions</summary>
+<br/>
+
+* What aspects of your team workflow performed well during the module?
+* What aspects of your team workflow improved the most over the course of the module?
+* Give an example of an important consideration for the effectiveness of software development
+  teams and how it can be managed using a defined process
+* Give an example of an essential aspect of software development team coordination and the 
+  problems that can arise if it is not managed properly
+* What do you consider to be essential elements of a team software development process?
+</details>
