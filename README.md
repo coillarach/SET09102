@@ -2,7 +2,7 @@
 
 **NB**: This module assumes that you are familiar with the content of the 
 Software Engineering Methods module (SET08103). You can review that material
-on the [SET08103 GitHub site](https://github.com/Kevin-Sim/SET08103).
+on the [SET08103 GitHub site](https://github.com/edinburgh-napier/SET08103).
 
 | Week | Topic                                                                                                                                                                             | Practical                                                                 | Assessment                                                                                                                                |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
