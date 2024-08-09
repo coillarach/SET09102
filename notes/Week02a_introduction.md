@@ -139,13 +139,14 @@ software engineers.
 
 <details>
 <summary>Hacker</summary>
+<blockquote>
+A person skilled in information technology who uses their technical knowledge to 
+achieve a goal or overcome an obstacle, within a computerized system by non-standard 
+means.
 
-> A person skilled in information technology who uses their technical knowledge to 
-> achieve a goal or overcome an obstacle, within a computerized system by non-standard 
-> means.
-> 
-> [![Wikipedia](../images/wikipedia_link_icon.png)](https://en.wikipedia.org/wiki/Hacker)
-
+[![Wikipedia](../images/wikipedia_link_icon.png)](https://en.wikipedia.org/wiki/Hacker)
+</blockquote>
+<br/>
 Now almost exclusively used in the sense of a *security hacker*, someone attempting to
 infiltrate or disable a computer system without authorisation, a hacker was simply
 someone adept at writing code. It connoted someone who could get things working quickly
@@ -154,13 +155,13 @@ but not necessarily in a principled way. This meaning is the basis of the word *
 
 <details>
 <summary>Script kiddie</summary>
-
-> A script kiddie is a derogatory term used to refer to non-serious hackers who [...] use 
-> hacking programs written by other hackers because they often lack the skills to write 
-> their own.
-> 
-> [![Technopedia](../images/technopedia_link_icon.png)](https://www.techopedia.com/definition/4090/script-kiddie)
-
+<blockquote>
+A script kiddie is a derogatory term used to refer to non-serious hackers who [...] use 
+hacking programs written by other hackers because they often lack the skills to write 
+their own.
+<br/>
+[![Technopedia](../images/technopedia_link_icon.png)](https://www.techopedia.com/definition/4090/script-kiddie)
+</blockquote>
 The name suggests an immaturity in this group of people. They have no serious interest in
 building their knowledge and expertise; instead, they are just excited by the idea of
 causing mischief.
@@ -169,13 +170,13 @@ causing mischief.
 
 <details>
 <summary>Code monkey</summary>
-
-> A [...] programmer or developer who is seen as someone who writes code quickly and 
-> without much thought or creativity [...] only capable of mechanically following 
-> instructions without understanding the broader implications of their work.
-> 
-> [![NordVPN](../images/NordVPN_link_icon.png)](https://nordvpn.com/cybersecurity/glossary/code-monkey/)
-
+<blockquote>
+A [...] programmer or developer who is seen as someone who writes code quickly and 
+without much thought or creativity [...] only capable of mechanically following 
+instructions without understanding the broader implications of their work.
+<br/> 
+[![NordVPN](../images/NordVPN_link_icon.png)](https://nordvpn.com/cybersecurity/glossary/code-monkey/)
+</blockquote>
 This type of programmer is good at what they do, but have no interest in the wider context.
 They do not care about the purpose or impact of the development, and they avoid interactions
 with users, relying on others to create instructions they can follow.
