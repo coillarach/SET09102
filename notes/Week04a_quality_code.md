@@ -200,8 +200,7 @@ reordering abbreviates to MORSE):
 
 ## Code smells
 
-![Code quality](https://imgs.xkcd.com/comics/code_quality.png)
-
+![Code quality](https://imgs.xkcd.com/comics/code_quality.png#figure)
 [*Source: xkcd* ](https://xkcd.com/1513/)
 
 The code weaknesses listed in CWE are specific and can be easily identified if you
@@ -290,8 +289,7 @@ include a calculation, but not necessarily one based on agreed standards.
 
 ## Clean code
 
-![Code quality](https://imgs.xkcd.com/comics/code_quality_2.png)
-
+![Code quality](https://imgs.xkcd.com/comics/code_quality_2.png#figure)
 [*Source: xkcd* ](https://xkcd.com/1695)
 
 An automated, numerical approach to code quality has its place: it can enable the
@@ -323,8 +321,7 @@ With that proviso in mind, here are some of the main principles of Clean Code wi
 examples and rationales. The book provides more examples and further detail as well as
 covering other important concepts. **You are encouraged to read the whole book**.
 
-![Please read](../images/material/outline_menu_book_black_48dp.png) 
-Clean Code ([Martin, 2009](https://napier.primo.exlibrisgroup.com/permalink/44NAP_INST/13v8mut/alma9923581530002111))
+Clean Code ([Martin, 2009](https://napier.primo.exlibrisgroup.com/permalink/44NAP_INST/13v8mut/alma9923581530002111#please-read))
 
 ### Use meaningful names
 
