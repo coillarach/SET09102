@@ -1,5 +1,13 @@
 # Team workflows
 
+<script type="module">
+	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+	mermaid.initialize({
+		startOnLoad: true,
+		theme: 'forest'
+	});
+</script>
+
 <hr class="splash">
 
 ![Merlin Mann](../images/merlin_mann.png)<br/>*Photo by [Thomas Hawk](https://www.flickr.com/photos/thomashawk/2298694177)*
@@ -60,8 +68,7 @@ each one will have their own development environment. This is an important detai
 environment is not shared - each member of the team has their own copy which includes the last known 
 good configuration of the codebase, plus the changes they are currently working on.
 
-![Environments](../images/environments.png)
-
+![Environments](../images/environments.png#figure)
 *Fig 1: System environments*
 
 Code repositories such as GitHub are excellent tools for managing the synchronisation of the
@@ -106,7 +113,7 @@ because the two configurations are independent. In GitHib and other similar syst
 is referred to as a *branch* in the code as illustrated in Fig. 2. Note that the branch 
 representing the current release is called `main` - this is a common convention.
 
-```mermaid
+<pre class="mermaid figure">
 gitGraph
    commit id: " "
    commit id: "release"
@@ -119,8 +126,7 @@ gitGraph
    commit id: "change 2"
    checkout main
    commit id: "bug fix 2"
-```
-
+</pre>
 *Fig. 2: Release branch*
 
 Once the code configuration for the new release is stable, the parallel code branch can be 
@@ -131,7 +137,7 @@ conflicts can be handled in an automated way, but others will require the two ve
 to be merged manually to create a third composite version that preserves the changes from both
 branches.
 
-```mermaid
+<pre class="mermaid figure">
 gitGraph
    commit id: " "
    commit id: "Release 1"
@@ -149,8 +155,7 @@ gitGraph
    checkout main
    merge next_release id: "Release 2"
    commit id: " "
-```
-
+</pre>
 *Fig. 3: Merging branches*
 
 A further complication that needs to be managed is that several pieces of development work will be
@@ -161,7 +166,7 @@ creates a branch to work on feature 1 and a second developer creates a parallel 
 feature 2. Once both pieces of work are complete they are merged into the new release branch. The 
 same procedure would be done for the bug fixes in the main branch.
 
-```mermaid
+<pre class="mermaid figure">
 gitGraph
    commit id: " "
    commit id: "Release 1"
@@ -188,8 +193,7 @@ gitGraph
    checkout main
    merge next_release id: "Release 2"
    commit id: " "
-```
-
+</pre>
 *Fig 4: Parallel feature branches*
 
 A merge operation is triggered by a *pull request* (PR). With a PR, the developer is indicating that the
@@ -231,8 +235,7 @@ manage the work. For example, a swimlane for stalled tasks could be added, or fo
 The task board can be as complicated as required, but in general, the simpler the structure, the 
 more intuitive it is to use.
 
-![Default GitHub task board](../images/github_task_board.png)
-
+![Default GitHub task board](../images/github_task_board.png#figure)
 *Fig 5: Default GitHub task board*
 
 Tasks in GitHub are represented by [issues](https://docs.github.com/en/issues). They can be added
@@ -243,8 +246,7 @@ issues using the issues tab on the repository page. If you take that option, you
 explicitly which project the issue should be added to. This is done using the controls on the right of
 the issue creation page as shown in Fig. 6.
 
-![New issue page](../images/new_issue.png)
-
+![New issue page](../images/new_issue.png#figure)
 *Fig. 6: GitHub new issue page*
 
 When using a task board, an item gradually accumulates detail and moves through the swimlanes from left
@@ -318,8 +320,7 @@ In light of the previous sections, two main phases of activity can be identified
 any piece of development work as shown in Fig.7. The time required for each stage depends on the 
 complexity of the original issue. 
 
-![Development process](../images/dev_process.png)
-
+![Development process](../images/dev_process.png#figure)
 *Fig. 7: Two-phase development process*
 
 The rules that a team sets for itself in defining a standard workflow are intended to help 
