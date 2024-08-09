@@ -57,7 +57,7 @@ img[src*="#figure"] {
 }
 .figure + p,
 img[src*="#figure"] + em {
-  clear: both;
+  display: block;
   margin-left: 10rem;
   font-style: italic;
   font-size: 0.9rem;

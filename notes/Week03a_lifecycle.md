@@ -65,7 +65,6 @@ flowchart LR
     Utilisation --> Retirement
     Support --> Retirement
 </pre>
-
 *Fig. 2: Lifecycle stage transitions ([ISO24748-1](https://doi-org.napier.idm.oclc.org/10.1109/IEEESTD.2018.8526560))*
 
 ISO24748-1 identifies five common principles associated with system lifecycle management:
