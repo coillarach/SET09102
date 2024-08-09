@@ -55,7 +55,7 @@ material. Reading comes in two types: essential reading and further reading. You
 are encouraged to read as widely as possible in the field of software engineering
 and the reading links provided here are just a starting point. The essential
 reading is the minimum you should do, and you will see it highlighted 
-<a href="#please-read">like this</a>
+<a href="#please-read">like this</a>.
 
 The reading is typically from the textbooks on the 
 [reading list](https://eu.alma.exlibrisgroup.com/leganto/public/44NAP_INST/lists/6676828460002111?auth=SAML)
@@ -65,16 +65,13 @@ The reading is typically from the textbooks on the
 History can be instructive: it shows you the connections between ideas, illuminates
 the emergence of innovations and identifies old ideas that have been left behind.
 
+###### Here's you engineering your software... [![ ](../images/you_small.png)](https://bdavison.napier.ac.uk/set09102/timeline.html){:target="_blank"}
+
 From the perspective of a student in 2023, some things feel as though they have been
 around forever. It pays to remember that every digital innovation has been brought
 about by software engineers. The tour below is necessary *extremely* selective. It
 is intended to be illustrative rather than compehensive.
 
-<h6 align="center"> Here's you in 2023...
-<a href="https://bdavison.napier.ac.uk/set09102/timeline.html" target="_blank" alt="People in software engineering">
-    <img src="../images/you_small.png">
-</a>
-</h6>
 
 ## International standards
 
