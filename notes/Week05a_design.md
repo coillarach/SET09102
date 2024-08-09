@@ -1,6 +1,6 @@
 # Software design
 
-<div class="splash"></div>
+<hr class="splash">
 
 ![Mario Fusco](../images/mario_fusco.png)
 
@@ -10,7 +10,7 @@
 
 *Mario Fusco*
 
-<div class="splash"></div>
+<hr class="splash">
 
 ###### Contents
 
