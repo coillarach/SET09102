@@ -52,7 +52,7 @@ some example transitions as shown in Fig. 2 with the following decision options 
 * Hold project activity
 * Terminate project
 
-<pre class="mermaid">
+<pre class="mermaid figure">
 flowchart LR
     Concept <--> Development
     Concept <--> Production
@@ -97,9 +97,8 @@ the work of building the system is complete, and the responsibility of the produ
 maintaining the system in use. Confusingly, this stage may also be referred to as the production stage 
 which is in direct conflict with the nomenclature defined in the standard.
 
-![Please read](../images/material/outline_menu_book_black_48dp.png) 
 For a deeper understanding of the system lifecycle stages discussed above, please review the 
-[ISO24748-1](https://doi-org.napier.idm.oclc.org/10.1109/IEEESTD.2018.8526560) 
+[ISO24748-1](https://doi-org.napier.idm.oclc.org/10.1109/IEEESTD.2018.8526560#please-read) 
 standard itself which is relatively short and easy to read.
 
 ## Development project lifecycles
@@ -115,8 +114,7 @@ in Fig. 3. The waterfall approach is an extreme expression of what Stephens call
 The idea is that when the requirements are clearly and comprehensively defined in advance, these models
 will work well.
 
-![Waterfall model](../images/waterfall.png)
-
+![Waterfall model](../images/waterfall.png#figure)
 *Fig. 3: Simplified waterfall project lifecycle*
 
 Strictly adhering to the sequential nature of the stages in the waterfall approach leads to a number
@@ -136,8 +134,7 @@ The main innovation in the V model was to identify different types of testing th
 different stages of the project. This went some way to resolving the problem with postponed testing,
 but other issues still remained.
 
-![V model](../images/v-model.png)
-
+![V model](../images/v-model.png#figure)
 *Fig 4: V model ([Rook, 1986](https://doi.org/10.1049/sej.1986.0003))*
 
 ### The waterfall model with feedback
@@ -149,8 +146,7 @@ In fact, this version of the waterfall model incorporates ideas from Royce's ori
 idea is that events during the project can trigger the return to an earlier stage as illustrated in
 Fig. 5.
 
-![Waterfall model with feedback](../images/feedback_waterfall.png)
-
+![Waterfall model with feedback](../images/feedback_waterfall.png#figure)
 *Fig. 5: The waterfall model with feedback*
 
 ### The iterative waterfall model
@@ -159,8 +155,7 @@ The number of variations on the waterfall model are evidence that something was 
 fixing. A further version proposed the idea of a single project being decomposed into a series of
 waterfalls, one feeding into the next as shown in Fig. 6.
 
-![Iterative waterfall model](../images/iterative_waterfall.png)
-
+![Iterative waterfall model](../images/iterative_waterfall.png#figure)
 *Fig 6: The iterative waterfall model*
 
 ### The spiral model
@@ -179,8 +174,7 @@ iterative prototyping by following a repeating pattern of four stages:
 However, it also inherited extensive testing towards the end of the project 
 from the traditional waterfall approach.
 
-![Spiral model](../images/spiral.png)
-
+![Spiral model](../images/spiral.png#figure)
 *Fig. 7: The spiral model ([Boehm, 1986](https://doi.org/10.1109/2.59))*
 
 ## Agile
@@ -228,8 +222,7 @@ working software in the shortest possible timeframe. The
 principles in a way that splits a project into short periods of time called *sprints*. Each sprint
 has a managed life cycle as illustrated in Fig. 8.
 
-![Scrum framework](../images/scrum.png)
-
+![Scrum framework](../images/scrum.png#figure)
 *Fig. 8: The Scrum framework ([Scrum.org](https://www.scrum.org/learning-series/what-is-scrum)*)
 
 Although Scrum is the most widely-used agile methodology, there are other such as 
@@ -237,8 +230,7 @@ Although Scrum is the most widely-used agile methodology, there are other such a
 continuous process instead. Despite their differences, there is a large degree of overlap in agile
 methods, and a practical implementation of agile will include elements from more than one.
 
-![Please read](../images/material/outline_menu_book_black_48dp.png) 
-For a discussion of agile methods, please read [Stephens, 2022, Ch. 19](https://learning.oreilly.com/library/view/beginning-software-engineering/9781119901709/c19.xhtml)
+For a discussion of agile methods, please read [Stephens, 2022, Ch. 19](https://learning.oreilly.com/library/view/beginning-software-engineering/9781119901709/c19.xhtml#please-read)
 
 ## DevOps
 
@@ -254,8 +246,7 @@ CD is obviously a more risky proposition that CI and a complete CI/CD pipeline i
 verification and monitoring steps before software is actually released to users as illustrated in
 Fig. 9.
 
-![Continuous deployment](https://scaledagileframework.com/wp-content/uploads/2023/01/Continuous_Deployment_F02-2.svg)
-
+![Continuous deployment](https://scaledagileframework.com/wp-content/uploads/2023/01/Continuous_Deployment_F02-2.svg#figure)
 *Fig 9: The four activities of continuous deployment ([Scaled Agile, 2023](https://scaledagileframework.com/continuous-deployment/))*
 
 ## Further reading
