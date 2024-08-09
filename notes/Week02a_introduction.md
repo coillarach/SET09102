@@ -54,9 +54,8 @@ The module site provide basic notes on each topic with additional links to other
 material. Reading comes in two types: essential reading and further reading. You
 are encouraged to read as widely as possible in the field of software engineering
 and the reading links provided here are just a starting point. The essential
-reading is the minimum you should do, and you will see it marked with this icon:
-
-![Please read](../images/material/outline_menu_book_black_48dp.png)
+reading is the minimum you should do, and you will see it highlighted 
+<a href="#please-read">like this</a>
 
 The reading is typically from the textbooks on the 
 [reading list](https://eu.alma.exlibrisgroup.com/leganto/public/44NAP_INST/lists/6676828460002111?auth=SAML)
