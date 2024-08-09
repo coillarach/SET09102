@@ -40,7 +40,7 @@ related to the development and use of systems by providing clear thresholds, som
 
 ISO24748-1 defines six standard lifecycle stages as shown in Fig. 1.
 
-![Lifecycle stages](../images/lifecycle_stages.png)
+![Lifecycle stages](../images/lifecycle_stages.png#figure)
 *Fig. 1: Lifecycle stages ([ISO24748-1](https://doi-org.napier.idm.oclc.org/10.1109/IEEESTD.2018.8526560))*
 
 The progression from one lifecycle stage to another is not linear or predetermined. ISO24748-1 provides 

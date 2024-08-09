@@ -49,6 +49,23 @@ div.tour+h6 {
   clear: both;
 }
 
+// FIGURES
+
+img[src*="#figure"] {
+    margin: 2rem 0 1rem 10rem;
+}
+img[src*="#figure"] + p {
+  margin-left: 10rem;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+div.pretty img + .caption,
+div.pretty .ally-image-wrapper + .caption {
+    margin-left: 11.5em;
+    margin-bottom: 2em;
+}
+
 // DETAILS
 
 details[open] {
