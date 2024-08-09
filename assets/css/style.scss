@@ -8,14 +8,15 @@
 }
 
 hr.splash {
-
+  color: #f2f2f2;
+  clear: both;
 }
 hr.splash+p {
   float: left;
   padding-right: 2rem;
 }
-
-hr.splash+p+img {
+hr.splash+p>img {
   max-width: 20rem;
   max-height: 20rem;
 }
+
