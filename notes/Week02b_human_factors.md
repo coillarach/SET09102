@@ -27,12 +27,12 @@ If you think about software engineering as simply writing code, it is easy to
 overlook the other people who have an interest in the software products that you
 are creating. The tour below illustrates some of the most important ones.
 
-<h6 align="center"> Here's you, engineering your software...
+<div class="tour"></div>
 
-<a href="https://bdavison.napier.ac.uk/set09102/other_people.html" target="_blank" alt="People in software engineering">
-    <img src="../images/you_small.png">
-</a>
-</h6>
+###### [![Here's you engineering your software...](../images/you_small.png)](https://bdavison.napier.ac.uk/set09102/other_people.html){:target="_blank"}
+
+<br/>
+<br/>
 
 ## Stakeholder analysis
 
@@ -97,7 +97,7 @@ provides a clear explanation of how to conduct a thorough stakeholder analysis.
 Your closest relationships are likely to be with the rest of your team. They 
 act as mentors, sounding board, technical support, collaborators, etc. Effective
 teamwork is essential in any software engineering environment. The following
-important topics in this area are covered in [Stephens, 2022, Ch. 3](https://learning.oreilly.com/library/view/beginning-software-engineering/9781119901709/c03.xhtml):
+important topics in this area are covered in [Stephens, 2022, Ch. 3](https://learning.oreilly.com/library/view/beginning-software-engineering/9781119901709/c03.xhtml#please-read):
 
 * The features of an effective team
 * Team roles
@@ -105,15 +105,13 @@ important topics in this area are covered in [Stephens, 2022, Ch. 3](https://lea
 * Physical environment
 * Collaboration software
 
-![Please read](../images/material/outline_menu_book_black_48dp.png) Please read the chapter this week.
-
 ## Project management
 
 The vast majority of software development takes place within a managed project.
 As a software engineer, you need to be familiar with common project management 
 concepts and techniques even if you are not directly responsible for managing
 the project. The following important topics are covered in 
-[O'Regen, 2022, Ch. 4](https://link-springer-com.napier.idm.oclc.org/chapter/10.1007/978-3-031-07816-3_4)
+[O'Regen, 2022, Ch. 4](https://link-springer-com.napier.idm.oclc.org/chapter/10.1007/978-3-031-07816-3_4#please-read)
 
 * Project structures
 * Project planning and time estimation
@@ -121,8 +119,6 @@ the project. The following important topics are covered in
 * Project quality management
 * Project processes
 * Management of agile projects
-
-![Please read](../images/material/outline_menu_book_black_48dp.png) Please  read the chapter this week.
 
 ## Other relationships
 
