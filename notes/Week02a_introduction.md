@@ -174,7 +174,6 @@ This type of programmer is good at what they do, but have no interest in the wid
 They do not care about the purpose or impact of the development, and they avoid interactions
 with users, relying on others to create instructions they can follow.
 
-![Please read](../images/material/outline_menu_book_black_48dp.png)
 [Stephens, 2022, Ch. 1](https://learning.oreilly.com/library/view/beginning-software-engineering/9781119901709/c01.xhtml){.please-read}
 sets out the main dimensions of software engineering going beyond simply coding. 
 The chapter is short and you should read it this week. In the meantime, here is a
