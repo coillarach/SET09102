@@ -62,15 +62,15 @@ The reading is typically from the textbooks on the
 
 ## A brief historical tour
 
+###### [![Here's you engineering your software...](../images/you_small.png)](https://bdavison.napier.ac.uk/set09102/timeline.html){:target="_blank"} {.float-right}
+
 History can be instructive: it shows you the connections between ideas, illuminates
 the emergence of innovations and identifies old ideas that have been left behind.
 
-###### Here's you engineering your software... [![ ](../images/you_small.png)](https://bdavison.napier.ac.uk/set09102/timeline.html){:target="_blank"}
-
 From the perspective of a student in 2023, some things feel as though they have been
 around forever. It pays to remember that every digital innovation has been brought
-about by software engineers. The tour below is necessary *extremely* selective. It
-is intended to be illustrative rather than compehensive.
+about by software engineers. Click the image for an *extremely* selective historical tour. 
+It is intended to be illustrative rather than comprehensive.
 
 
 ## International standards
@@ -166,20 +166,16 @@ causing mischief.
 >
 > [![NordVPN](../images/NordVPN_link_icon.png)](https://nordvpn.com/cybersecurity/glossary/code-monkey/)
 
+###### [![Here's you engineering your software...](../images/you_small.png)](https://bdavison.napier.ac.uk/set09102/software_engineering.html){:target="_blank"} {.float-right}
+
 This type of programmer is good at what they do, but have no interest in the wider context.
 They do not care about the purpose or impact of the development, and they avoid interactions
 with users, relying on others to create instructions they can follow.
 
 [Stephens, 2022, Ch. 1](https://learning.oreilly.com/library/view/beginning-software-engineering/9781119901709/c01.xhtml#please-read)
 sets out the main dimensions of software engineering going beyond simply coding. 
-The chapter is short and you should read it this week. In the meantime, here is a
+The chapter is short and you should read it this week. In the meantime, click the image for a
 summary...
-
-<h6 align="center"> Here's you, engineering your software...
-<a href="https://bdavison.napier.ac.uk/set09102/software_engineering.html" target="_blank" alt="People in software engineering">
-    <img src="../images/you_small.png">
-</a>
-</h6>
 
 An official definition of software engineering is provided by the IEEE:
 
