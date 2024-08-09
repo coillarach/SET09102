@@ -56,7 +56,8 @@ img[src*="#figure"] {
   margin: 2rem 0 1rem 10rem;
 }
 .figure + p,
-img[src*="#figure"] + em {
+img[src*="#figure"] + em,
+img[src*="#figure"] + a {
   display: block;
   margin-left: 10rem;
   font-style: italic;
