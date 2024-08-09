@@ -1,8 +1,16 @@
 # Test-driven development
 
-|                                             |                                                                                                                               |
-|---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| ![Boris Beizer](../images/boris_beizer.png) | <h3>More than the act of testing, the act of designing tests is one of the best bug preventers known.</h3><br/>*Boris Beizer* |
+<hr class="splash">
+
+![Boris Beizer](../images/boris_beizer.png)
+
+### More than the act of testing, the act of designing tests is one of the best bug preventers known.
+
+<br/>
+
+*Boris Beizer*
+
+<hr class="splash">
 
 
 ###### Contents

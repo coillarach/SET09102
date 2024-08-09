@@ -1,8 +1,17 @@
 # Secure software development
 
-|                                                                                                                                               |                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Steve McConnell](../images/steve_mcconnell.png) | <h3>It's hard enough to find an error in your code when you're looking for it;<br/>it's even harder when you've assumed your code is error-free.</h3><br/>*Steve McConnell* |
+<hr class="splash">
+
+![Steve McConnell](../images/steve_mcconnell.png)
+
+### It's hard enough to find an error in your code when you're looking for it;<br/>it's even harder when you've assumed your code is error-free.
+
+<br/>
+
+*Steve McConnell*
+
+<hr class="splash">
+
 
 ###### Contents
 

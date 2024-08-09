@@ -1,8 +1,17 @@
 # Quality: processes
 
-|                                             |                                                                                                                                                                                                                            |
-|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Norman Bates](../images/norman_bates.png) | <h3>Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. </h3><br/>*[John F. Woods](https://groups.google.com/g/comp.lang.c++/c/rYCO5yn4lXw/m/oITtSkZOtoUJ)* |
+<hr class="splash">
+
+![Norman Bates](../images/norman_bates.png)
+
+### Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
+
+<br/>
+
+*[John F. Woods](https://groups.google.com/g/comp.lang.c++/c/rYCO5yn4lXw/m/oITtSkZOtoUJ)*
+
+<hr class="splash">
+
 
 ###### Contents
 

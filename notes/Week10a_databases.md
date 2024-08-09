@@ -1,8 +1,17 @@
 # Working with databases
 
-|                                                                                                                                                                |                                                                                          |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| ![Jeff Atwood](../images/jeff_atwood.png)<br/> [Original article](https://blog.codinghorror.com/object-relational-mapping-is-the-vietnam-of-computer-science/) | <h3>Object-relational mapping is the Vietnam of computer science</h3><br/>*Jeff Atwood*  |
+<hr class="splash">
+
+![Jeff Atwood](../images/jeff_atwood.png)
+
+### Object-relational mapping is the Vietnam of computer science.
+
+<br/>
+
+*Jeff Atwood*
+
+<hr class="splash">
+
 
 ##### Contents
 

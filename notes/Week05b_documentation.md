@@ -1,8 +1,17 @@
 # Documentation
 
-|                                                                                                                             |                                                                                                                                                                   |
-|-----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Jeff Atwood](../images/jeff_atwood.png) | <h3>The best reaction to “this is confusing, where are the docs” is to rewrite the feature to make it less confusing, not write more docs.</h3><br/>*Jeff Atwood* |
+<hr class="splash">
+
+![Jeff Atwood](../images/jeff_atwood.png)
+
+### The best reaction to “this is confusing, where are the docs” is to rewrite the feature to make it less confusing, not write more docs.
+
+<br/>
+
+*Jeff Atwood*
+
+<hr class="splash">
+
 
 ###### Contents
 

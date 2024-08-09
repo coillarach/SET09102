@@ -1,8 +1,16 @@
 # Lifecycle and development models
 
-|                    |                                                                                                                                                 |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Martin Fowler](../images/martin_fowler.png) | <h3>When to use iterative development? You should use iterative development only on projects that you want to succeed.</h3><br/>*Martin Fowler* |
+<hr class="splash">
+
+![Martin Fowler](../images/martin_fowler.png)
+
+### When to use iterative development? You should use iterative development only on projects that you want to succeed.
+
+<br/>
+
+*Martin Fowler*
+
+<hr class="splash">
 
 ###### Contents
 

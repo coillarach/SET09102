@@ -1,8 +1,17 @@
 # Generative AI tools
 
-|                                           |                                                       |
-|-------------------------------------------|-------------------------------------------------------|
-| ![Grady Booch](../images/grady_booch.png) | <h3>The amateur software engineer is always in search of magic</h3><br/>*Grady Booch* |
+<hr class="splash">
+
+![Grady Booch](../images/grady_booch.png)
+
+### The amateur software engineer is always in search of magic.
+
+<br/>
+
+*Grady Booch*
+
+<hr class="splash">
+
 
 ###### Contents
 

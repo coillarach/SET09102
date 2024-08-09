@@ -1,8 +1,16 @@
 # Software testing
 
-|                                                     |                                                                                                                                                                                                                                                                                                                                                            |
-|-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Michael Feathers](../images/michael_feathers.png) | <h3>Code without tests is bad code. <br/>It doesn't matter how well written it is; it doesn't matter how pretty or object-oriented or well-encapsulated it is. <br/>With tests, we can change the behavior of our code quickly and verifiably. <br/>Without them, we really don't know if our code is getting better or worse.</h3><br/>*Michael Feathers* |
+<hr class="splash">
+
+![Michael Feathers](../images/michael_feathers.png)
+
+### Code without tests is bad code. <br/>It doesn't matter how well written it is; it doesn't matter how pretty or object-oriented or well-encapsulated it is. <br/>With tests, we can change the behavior of our code quickly and verifiably. <br/>Without them, we really don't know if our code is getting better or worse.
+
+<br/>
+
+*Michael Feathers*
+
+<hr class="splash">
 
 
 ###### Contents

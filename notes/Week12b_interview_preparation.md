@@ -1,8 +1,17 @@
 # Interview preparation
 
-|                                                                                                                             |                                                                                                                                     |
-|-----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| ![Arthur Ashe](../images/arthur_ashe.png) | <h3>One important key to success is self-confidence.<br/>An important key to self-confidence is preparation.</h3><br/>*Arthur Ashe* |
+<hr class="splash">
+
+![Arthur Ashe](../images/arthur_ashe.png)
+
+### One important key to success is self-confidence.<br/>An important key to self-confidence is preparation.
+
+<br/>
+
+*Arthur Ashe*
+
+<hr class="splash">
+
 
 ###### Contents
 

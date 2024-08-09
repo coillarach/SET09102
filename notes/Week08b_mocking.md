@@ -1,8 +1,17 @@
 # Mocking and testing
 
-|                                                                                                                   |                                                                                                                                                            |
-|-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Ian Cooper](../images/ian_cooper.png)<br/>[TDD, Where did it all go wrong?](https://youtu.be/EZ05e7EMOLM?t=551) | <h3>Avoid heavy mocking. This allows you to meet the promise to refactoring. You will refactor your code and your tests won’t break.</h3><br/>*Ian Cooper* |
+<hr class="splash">
+
+![Ian Cooper](../images/ian_cooper.png)
+
+### Avoid heavy mocking. This allows you to meet the promise to refactoring. You will refactor your code and your tests won’t break.
+
+<br/>
+
+*Ian Cooper*
+
+<hr class="splash">
+
 
 ###### Contents
 

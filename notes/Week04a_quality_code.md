@@ -1,8 +1,16 @@
 # Quality: code
 
-|                    |                                                                                                                                                 |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Martin Fowler](../images/martin_fowler.png) | <h3>Any fool can write code that a computer can understand. Good programmers write code that humans can understand.</h3><br/>*Martin Fowler* |
+<hr class="splash">
+
+![Martin Fowler](../images/martin_fowler.png)
+
+### Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
+
+<br/>
+
+*Martin Fowler*
+
+<hr class="splash">
 
 ###### Contents
 

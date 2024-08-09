@@ -1,8 +1,16 @@
 # Team workflows
 
-|                                                                                                                           |                                                                                                                                   |
-|---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| ![Merlin Mann](../images/merlin_mann.png)<br/>*Photo by [Thomas Hawk](https://www.flickr.com/photos/thomashawk/2298694177)* | <h3>Workflow is understanding your job, understanding your tools, and then not thinking about it any more.</h3><br/>*Merlin Mann* |
+<hr class="splash">
+
+![Merlin Mann](../images/merlin_mann.png)<br/>*Photo by [Thomas Hawk](https://www.flickr.com/photos/thomashawk/2298694177)*
+
+### Workflow is understanding your job, understanding your tools, and then not thinking about it any more.
+
+<br/>
+
+*Merlin Mann*
+
+<hr class="splash">
 
 ###### Contents
 

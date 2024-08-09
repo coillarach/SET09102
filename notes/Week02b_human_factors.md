@@ -1,8 +1,16 @@
 # Human factors in software engineering
 
-|  |                                                       |
-|--|-------------------------------------------------------|
-| ![Jean-Paul Sartre](https://upload.wikimedia.org/wikipedia/commons/b/b7/Jean-Paul_Sartre_in_Venice_%28crop%29.jpg) | <h3>Hell is other people </h3><br/>*Jean-Paul Sartre* |
+<hr class="splash">
+
+![Jean-Paul Sartre](https://upload.wikimedia.org/wikipedia/commons/b/b7/Jean-Paul_Sartre_in_Venice_%28crop%29.jpg) 
+
+### Hell is other people
+
+<br/>
+
+*Jean-Paul Sartre*
+
+<hr class="splash">
 
 ###### Contents
 

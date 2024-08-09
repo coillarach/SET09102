@@ -1,8 +1,17 @@
 # Computer-aided software engineering
 
-|                                           |                                                       |
-|-------------------------------------------|-------------------------------------------------------|
-| ![Grady Booch](../images/grady_booch.png) | <h3>A fool with a tool is still a fool</h3><br/>*Grady Booch* |
+<hr class="splash">
+
+![Grady Booch](../images/grady_booch.png)
+
+### A fool with a tool is still a fool.
+
+<br/>
+
+*Grady Booch*
+
+<hr class="splash">
+
 
 ###### Contents
 

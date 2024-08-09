@@ -1,8 +1,17 @@
 # Know your tools
 
-|                                                                                                                         |                                                                                                                                                                  |
-|-------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Kent Beck](../images/kent_beck.png) | <h3>I've known people who have not mastered their tools who are good programmers, but not a tool master who remained a mediocre programmer.</h3><br/>*Kent Beck* |
+<hr class="splash">
+
+![Kent Beck](../images/kent_beck.png)
+
+### I've known people who have not mastered their tools who are good programmers, but not a tool master who remained a mediocre programmer.
+
+<br/>
+
+*Kent Beck*
+
+<hr class="splash">
+
 
 ###### Contents
 

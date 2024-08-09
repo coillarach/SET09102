@@ -1,8 +1,17 @@
 # Security
 
-|                                                                                                                                                                    |                                                                                          |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| ![Ross Haleliuk](../images/ross_haleliuk.png)<br/> [Original article](https://ventureinsecurity.net/p/if-we-cant-produce-enough-security) | <h3>Cybersecurity of the future is going to look a lot like software engineering</h3><br/>*Ross Haleliuk*  |
+<hr class="splash">
+
+![Ross Haleliuk](../images/ross_haleliuk.png)
+
+### Cybersecurity of the future is going to look a lot like software engineering.
+
+<br/>
+
+*Ross Haleliuk*
+
+<hr class="splash">
+
 
 ###### Contents
 
@@ -165,6 +174,7 @@ therefore of limited use to the software engineer.
 
 ## Further reading
 
+* [Haleliuk, 2023](https://ventureinsecurity.net/p/if-we-cant-produce-enough-security)
 * [Stephens, 2022, Ch. 8](https://learning.oreilly.com/library/view/beginning-software-engineering/9781119901709/c08.xhtml)
 * [2022 Top Routinely Exploited Vulnerabilities](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-215a)
 * Seven pernicious kingdoms: a taxonomy of software security errors [(Tsipenyuk, Chess & McGraw, 2005)](https://doi.org/10.1109/MSP.2005.159)

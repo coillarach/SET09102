@@ -1,8 +1,17 @@
 # Ethics and professionalism
 
-|                                                                                                                  |                                                       |
-|------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| ![Alistair Cooke](../images/alistair_cooke.png) | <h3>A professional is someone who can do his best work when he doesn't feel like it.</h3><br/>*Alistair Cooke* |
+<hr class="splash">
+
+![Alistair Cooke](../images/alistair_cooke.png)
+
+### A professional is someone who can do his best work when he doesn't feel like it.
+
+<br/>
+
+*Alistair Cooke*
+
+<hr class="splash">
+
 
 ###### Contents
 
