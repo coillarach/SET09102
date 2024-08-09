@@ -1,8 +1,17 @@
 # Software design
 
-|                                           |                                                                                                                                                                         |
-|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Mario Fusco](../images/mario_fusco.png) | <h3>The code you write makes you a programmer. The code you delete makes you a good one. The code you don’t have to write makes you a great one.</h3><br/>*Mario Fusco* |
+<div class="splash-photo">
+
+![Mario Fusco](../images/mario_fusco.png)
+
+</div>
+<div class="splash-text">
+<h3>The code you write makes you a programmer. The code you delete makes you a good one. The code you don’t have to write makes you a great one.</h3>
+<br/>
+
+*Mario Fusco*
+
+</div>
 
 
 ###### Contents
