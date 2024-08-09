@@ -10,6 +10,8 @@
 
 *Mario Fusco*
 
+<hr class="splash">
+
 ###### Contents
 
 1. [Design activities](#design-activities)
