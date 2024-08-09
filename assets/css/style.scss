@@ -31,3 +31,9 @@ details[open] {
 details[open] summary {
   margin-bottom: 1rem;
 }
+
+// LINKS
+
+a[href*="#please-read"] {
+  color: red;
+}
