@@ -26,10 +26,6 @@ body {
   max-width: 80%;
 }
 
-.float-right {
-  float: right;
-}
-
 // SPLASH
 
 hr.splash {
@@ -44,6 +40,13 @@ hr.splash+p {
 hr.splash+p>img {
   max-width: 16rem;
   max-height: 16rem;
+}
+
+// TOURS
+
+div.tour+h6 {
+  float: right;
+  clear: both;
 }
 
 // DETAILS

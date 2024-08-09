@@ -62,7 +62,9 @@ The reading is typically from the textbooks on the
 
 ## A brief historical tour
 
-###### [![Here's you engineering your software...](../images/you_small.png)](https://bdavison.napier.ac.uk/set09102/timeline.html){:target="_blank"} {.float-right}
+<div class="tour"></div>div>
+
+###### [![Here's you engineering your software...](../images/you_small.png)](https://bdavison.napier.ac.uk/set09102/timeline.html){:target="_blank"}
 
 History can be instructive: it shows you the connections between ideas, illuminates
 the emergence of innovations and identifies old ideas that have been left behind.
@@ -166,7 +168,9 @@ causing mischief.
 >
 > [![NordVPN](../images/NordVPN_link_icon.png)](https://nordvpn.com/cybersecurity/glossary/code-monkey/)
 
-###### [![Here's you engineering your software...](../images/you_small.png)](https://bdavison.napier.ac.uk/set09102/software_engineering.html){:target="_blank"} {.float-right}
+<div class="tour"></div>div>
+
+###### [![Here's you engineering your software...](../images/you_small.png)](https://bdavison.napier.ac.uk/set09102/software_engineering.html){:target="_blank"}
 
 This type of programmer is good at what they do, but have no interest in the wider context.
 They do not care about the purpose or impact of the development, and they avoid interactions
