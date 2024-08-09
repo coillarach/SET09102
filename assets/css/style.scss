@@ -53,13 +53,14 @@ div.tour+h6 {
 
 .figure,
 img[src*="#figure"] {
-    margin: 2rem 0 1rem 10rem;
+  margin: 2rem 0 1rem 10rem;
 }
 .figure + p,
-img[src*="#figure"] + p {
+img[src*="#figure"] + em {
+  clear: both;
   margin-left: 10rem;
-    font-style: italic;
-    font-size: 0.9rem;
+  font-style: italic;
+  font-size: 0.9rem;
 }
 
 // DETAILS
