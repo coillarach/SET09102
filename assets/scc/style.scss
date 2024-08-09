@@ -6,3 +6,13 @@
 .inner {
   max-width: 80%;
 }
+
+div.splash>p {
+  float: left;
+  padding-right: 2rem;
+}
+
+div.splash>p>img {
+  max-width: 20rem;
+  max-height: 20rem;
+}

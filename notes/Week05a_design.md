@@ -10,6 +10,8 @@
 
 *Mario Fusco*
 
+<div class="splash"></div>
+
 ###### Contents
 
 1. [Design activities](#design-activities)
