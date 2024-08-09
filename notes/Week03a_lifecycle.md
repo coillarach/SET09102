@@ -1,5 +1,13 @@
 # Lifecycle and development models
 
+<script type="module">
+	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+	mermaid.initialize({
+		startOnLoad: true,
+		theme: 'dark'
+	});
+</script>
+
 <hr class="splash">
 
 ![Martin Fowler](../images/martin_fowler.png)
@@ -44,7 +52,7 @@ some example transitions as shown in Fig. 2 with the following decision options 
 * Hold project activity
 * Terminate project
 
-```mermaid
+<pre class="mermaid">
 flowchart LR
     Concept <--> Development
     Concept <--> Production
@@ -56,7 +64,7 @@ flowchart LR
     Concept <--> Support
     Utilisation --> Retirement
     Support --> Retirement
-```
+</pre>
 
 *Fig. 2: Lifecycle stage transitions ([ISO24748-1](https://doi-org.napier.idm.oclc.org/10.1109/IEEESTD.2018.8526560))*
 
