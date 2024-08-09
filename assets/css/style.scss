@@ -7,6 +7,8 @@
   max-width: 80%;
 }
 
+// SPLASH
+
 hr.splash {
   color: #f2f2f2;
   clear: both;
@@ -21,3 +23,11 @@ hr.splash+p>img {
   max-height: 16rem;
 }
 
+// DETAILS
+
+details[open] {
+  margin-bottom: 2rem;
+}
+details[open] summary {
+  margin-bottom: 1rem;
+}
