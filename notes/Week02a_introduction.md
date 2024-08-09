@@ -62,7 +62,7 @@ The reading is typically from the textbooks on the
 
 ## A brief historical tour
 
-<div class="tour"></div>div>
+<div class="tour"></div>
 
 ###### [![Here's you engineering your software...](../images/you_small.png)](https://bdavison.napier.ac.uk/set09102/timeline.html){:target="_blank"}
 
@@ -168,7 +168,7 @@ causing mischief.
 >
 > [![NordVPN](../images/NordVPN_link_icon.png)](https://nordvpn.com/cybersecurity/glossary/code-monkey/)
 
-<div class="tour"></div>div>
+<div class="tour"></div>
 
 ###### [![Here's you engineering your software...](../images/you_small.png)](https://bdavison.napier.ac.uk/set09102/software_engineering.html){:target="_blank"}
 
