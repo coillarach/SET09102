@@ -25,8 +25,10 @@ device storage.
 <figure markdown>
 
    ![Notes app screenshots](images/final-notelist-small.png)
+
    ![Microsoft notes app screenshots](images/final-note-small.png)
-  <figcaption>Fig. 1. Notes app screenshots.</figcaption>
+
+<figcaption>Fig. 1. Notes app screenshots.</figcaption>
 
 </figure>
 
