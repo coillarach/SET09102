@@ -7,7 +7,7 @@ Unified Modeling Language ([UML](https://www.omg.org/spec/UML)) is a standardize
 UML is a collection of 14 diagram types that can be broadly categorised as structural and behavioural as shown in Fig. 1. Structural diagrams and behavioural diagrams in UML serve different purposes in modelling a software system. Structural diagrams focus on the static aspects of the system, depicting the system's components and their relationships. Examples include class diagrams, which show the system's classes and their attributes, and component diagrams, which illustrate the organization and dependencies among software components. On the other hand, behavioural diagrams capture the dynamic aspects of the system, modelling how the system behaves and interacts over time. Examples include sequence diagrams, which show the sequence of messages exchanged between objects, and activity diagrams, which depict the flow of control or activities within the system. Together, these diagrams provide a comprehensive view of both the structure and behaviour of the software system.  
 
 ![The 14 UML diagrams](images/UML.png#figure)
-<figcaption>Fig. 1: The 14 UML diagrams.</figcaption>
+<p>Fig. 1: The 14 UML diagrams.</p>
 
 In an Agile project, UML fits seamlessly into the iterative and incremental development lifecycle by providing a visual framework for planning, designing, and communicating complex software structures and behaviours. During the early stages, UML diagrams such as use case diagrams help capture and clarify user requirements, ensuring that the development team and stakeholders have a shared understanding of the project's scope and goals. As the project progresses through sprints, class diagrams, sequence diagrams, and activity diagrams are used to design and document the system's architecture and interactions, facilitating effective planning and implementation of user stories. UML's flexibility allows for continuous refinement and adaptation of the models, aligning with Agile's emphasis on responding to change and improving through iterative feedback. By integrating UML into Agile practices, teams can maintain a clear and organized design process, improve communication, and ensure that the evolving system meets both functional and non-functional requirements effectively.  
 
@@ -86,7 +86,7 @@ As a first step in elaborating the model, we will add a use case diagram. StarUM
 
 
 ![Creating a use case diagram in StarUML](images/use_case.png#figure)
-<figcaption>Fig. 2. Creating a use case diagram in StarUML.</figcaption>
+<p>Fig. 2. Creating a use case diagram in StarUML.</p>
 
 Your diagram should contain the following elements:
 
@@ -160,7 +160,7 @@ This part of the tutorial demonstrates the difference between a model and a diag
 If you did not give your model elements names as you went along, you may want to do that now to make navigation easier. Then find the _book_ class in the navigator and right-click on it. This will display a context menu as shown in Fig. 3. where you have options to add attributes (properties) and operations (methods).
 
 ![Adding attributes (properties) to classes inStarUML](images/attribute.png#figure)
-<figcaption>Fig. 3. Adding attributes (properties) and operations (methods) in StarUML.</figcaption>
+<p>Fig. 3. Adding attributes (properties) and operations (methods) in StarUML.</p>
 
 Add the following properties to your classes:
 
@@ -198,8 +198,8 @@ Once added, use the context menu again to add three statuses:
 
 Now we can use the enumeration to define a parameter for _setStatus_. Right-click on _setStatus_ and select **Add->Parameter** from the context menu. One of the properties of the parameter is _type_ which should be set to the name of the enumeration as shown in Fig. 4. You can use the magnifying glass icon to search for the enumeration in the model.
 
-![Creating a parameter whose value is an enumeration in StarUML](images/staruml/parameter.png#figure)
-<figcaption>Fig. 4. Creating a method parameter based on an enumeration in StarUML.</figcaption>
+![Creating a parameter whose value is an enumeration in StarUML](images/parameter.png#figure)
+<p>Fig. 4. Creating a method parameter based on an enumeration in StarUML.</p>
 
 Now open the class diagram - you will see that the new information is included even though the diagram has not been edited. You may need to tidy up the layout a little.
 
@@ -214,11 +214,11 @@ In this final stage, we will use the model to generate some C# code that can be 
 Open the extension manager from the **Tools** menu. Fin the extension called _C#_ by Dongjoon Lee as shown in Fig. 5 and click _Install_.
 
 ![The C# extension](images/adding_cs_extension.png#figure)
-<figcaption>Fig. 5. Adding the C# extension to StarUML.</figcaption>
+<p>Fig. 5. Adding the C# extension to StarUML.</p>
 
 The extension adds some new options to the **Tools** menu as shown in Fig. 6. Select the **Generate code...** option.
 
 ![C# options on the StarUML menu](images/cs_options.png#figure)
-<figcaption>Fig. 6. C# options on the StarUML menu.</figcaption>
+<p>Fig. 6. C# options on the StarUML menu.</p>
 
 Follow the prompts to generate your code and examine the results with a text editor. You will see that there is still a lot of detail to fill in, but the files that have been created provide a structure that corresponds to your model. Using this structure helps to avoid overlooking details as you start the implementation.
