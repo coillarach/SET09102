@@ -252,8 +252,8 @@ Let's break down the key parts of the XAML:
 * `<Shell>` is the root object of the XAML markup.
 * `<TabBar>` is the content of the [Shell](https://learn.microsoft.com/en-us/dotnet/api/microsoft.maui.controls.shell){:target="_blank"}.
 * Two `<ShellContent>` objects inside of the `<TabBar>`. Before you replaced 
-* the template code, there was a single `<ShellContent>` object, pointing to 
-* the `MainPage` page.
+  the template code, there was a single `<ShellContent>` object, pointing to 
+  the `MainPage` page.
 
 The `TabBar` and its children don't represent any user interface elements, 
 but rather the organization of the app's visual hierarchy. Shell takes these 

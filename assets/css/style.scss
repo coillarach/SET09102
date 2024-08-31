@@ -31,12 +31,17 @@ body {
   background: white;
 }
 
-pre {
+pre,
+img {
   box-shadow: none;
 }
 
 pre, code {
   background-color: var(--code-background);
+}
+
+code {
+  color: black;
 }
 
 .highlight {
@@ -72,14 +77,14 @@ div.tour+h6 {
 
 .figure,
 img[src*="#figure"] {
-  margin: 2rem 0 1rem 10rem;
+  margin: 2rem 0 0 8rem;
 }
 figcaption,
 .figure + p,
 img[src*="#figure"] + em,
 img[src*="#figure"] + a {
   display: block;
-  margin-left: 10rem;
+  margin: 0 0 2rem 8rem;
   font-style: italic;
   font-size: 0.9rem;
 }
