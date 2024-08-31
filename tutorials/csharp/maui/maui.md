@@ -56,7 +56,8 @@ When VSCode creates a .NET MAUI project four important code files are generated.
 These can be seen in the **Solution Explorer** pane:
 
 ![Fig. 2. Elements of a MAUI project.](images/ms_notes_1.png){: standalone #fig2}
-{: #figure-id .figure-class figure-attr="value"}
+
+[//]: # ({: #figure-id .figure-class figure-attr="value"})
 
 [//]: # (![Elements of MAUI project]&#40;images/ms_notes_1.png#figure&#41;)
 
