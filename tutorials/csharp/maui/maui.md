@@ -55,8 +55,12 @@ This essentially re-creates the original dummy project with a different name.
 When VSCode creates a .NET MAUI project four important code files are generated. 
 These can be seen in the **Solution Explorer** pane:
 
-![Elements of MAUI project](images/ms_notes_1.png#figure)
-<figcaption>Fig. 2. Elements of a MAUI project.</figcaption>
+![Fig. 2. Elements of a MAUI project.](images/ms_notes_1.png){: standalone #fig2}
+{: #figure-id .figure-class figure-attr="value"}
+
+[//]: # (![Elements of MAUI project]&#40;images/ms_notes_1.png#figure&#41;)
+
+[//]: # (<figcaption>Fig. 2. Elements of a MAUI project.</figcaption>)
 
 These files help get the .NET MAUI app configured and running. Each file serves 
 a different purpose as described below:
