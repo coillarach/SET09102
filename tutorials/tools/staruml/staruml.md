@@ -147,7 +147,7 @@ For more information, see the relevant part of the [StarUML documentation](https
 
 ## 9. Check your solution
 
-StarUML can export the full model including the various diagrams as HTML pages. Compare your solution to the one available [here](images/staruml/html-docs/index.html).
+StarUML can export the full model including the various diagrams as HTML pages. Compare your solution to the one available [here](images/html-docs/index.html).
 
 You should find some differences since the online solution contains some additional information. In the next step, you will add the missing information.
 
