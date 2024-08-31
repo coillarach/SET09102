@@ -9,10 +9,6 @@ figure on the second page should be Fig.6.
 Template:
 
 ```markdown
-<figure markdown>
-
-  ![Image alt text](images/image_file.png)
+  ![Image alt text](images/image_file.png#figure)
   <figcaption>Fig. 1. Caption text.</figcaption>
-
-</figure>
 ```
