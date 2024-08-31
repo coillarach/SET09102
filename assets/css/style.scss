@@ -31,8 +31,16 @@ body {
   background: white;
 }
 
+pre {
+  box-shadow: none;
+}
+
 pre, code {
-  background-color: var(--light-grey);
+  background-color: var(--code-background);
+}
+
+.highlight {
+  background-color: var(--code-background);
 }
 
 // Custom
