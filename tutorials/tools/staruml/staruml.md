@@ -6,10 +6,8 @@ Unified Modeling Language ([UML](https://www.omg.org/spec/UML)) is a standardize
 
 UML is a collection of 14 diagram types that can be broadly categorised as structural and behavioural as shown in Fig. 1. Structural diagrams and behavioural diagrams in UML serve different purposes in modelling a software system. Structural diagrams focus on the static aspects of the system, depicting the system's components and their relationships. Examples include class diagrams, which show the system's classes and their attributes, and component diagrams, which illustrate the organization and dependencies among software components. On the other hand, behavioural diagrams capture the dynamic aspects of the system, modelling how the system behaves and interacts over time. Examples include sequence diagrams, which show the sequence of messages exchanged between objects, and activity diagrams, which depict the flow of control or activities within the system. Together, these diagrams provide a comprehensive view of both the structure and behaviour of the software system.  
 
-<figure markdown>
-  ![The 14 UML diagrams](images/staruml/UML.png#figure)
-  <figcaption>Fig. 1: The 14 UML diagrams.</figcaption>
-</figure>
+![The 14 UML diagrams](images/staruml/UML.png#figure)
+<figcaption>Fig. 1: The 14 UML diagrams.</figcaption>
 
 In an Agile project, UML fits seamlessly into the iterative and incremental development lifecycle by providing a visual framework for planning, designing, and communicating complex software structures and behaviours. During the early stages, UML diagrams such as use case diagrams help capture and clarify user requirements, ensuring that the development team and stakeholders have a shared understanding of the project's scope and goals. As the project progresses through sprints, class diagrams, sequence diagrams, and activity diagrams are used to design and document the system's architecture and interactions, facilitating effective planning and implementation of user stories. UML's flexibility allows for continuous refinement and adaptation of the models, aligning with Agile's emphasis on responding to change and improving through iterative feedback. By integrating UML into Agile practices, teams can maintain a clear and organized design process, improve communication, and ensure that the evolving system meets both functional and non-functional requirements effectively.  
 
