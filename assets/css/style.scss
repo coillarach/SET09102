@@ -4,10 +4,6 @@
 @import "{{ site.theme }}";
 
 // Theme mods (Slate)
-#main-content-wrap {
-  background: white;
-}
-
 body {
     --pale-red: #fcf1f1;
     --dark-red: #900401;
@@ -29,6 +25,14 @@ body {
 
 .inner {
   max-width: 80%;
+}
+
+#main_content_wrap {
+  background: white;
+}
+
+pre, code {
+  background-color: var(--light-grey);
 }
 
 // Custom
