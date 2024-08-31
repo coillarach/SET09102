@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+// Theme mods (Slate)
+#main-content-wrap {
+  background: white;
+}
+
 body {
     --pale-red: #fcf1f1;
     --dark-red: #900401;
@@ -20,12 +25,13 @@ body {
     --dark-teal: #017696;
     --light-grey: #f0f0f0;
     --code-background: #f8f9fa;
-    background: white;
 }
 
 .inner {
   max-width: 80%;
 }
+
+// Custom
 
 // SPLASH
 
