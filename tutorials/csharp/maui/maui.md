@@ -1,5 +1,9 @@
 # Getting started with MAUI
 
+{% page-toc-content %}
+HELLO
+{% endpage-toc-content %}
+
 This tutorial series is designed to demonstrate how to create a .NET 
 Multi-platform App UI (.NET MAUI) app that only uses cross-platform code. 
 That is, the code you write won't be specific to Windows, Android, iOS, 
