@@ -51,6 +51,26 @@ code {
 
 // Custom
 
+// Layouts
+
+#three-column-page {
+  display: flex;
+}
+
+#side-nav {
+  width: 20rem;
+  background-color: #faf2cc;
+}
+
+#main_content_wrap {
+  flex-grow: 2;
+}
+
+#page-toc {
+  width: 20rem;
+  background-color: #0e90d2;
+}
+
 // SPLASH
 
 hr.splash {
