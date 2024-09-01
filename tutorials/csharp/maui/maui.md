@@ -9,10 +9,6 @@ That is, the code you write won't be specific to Windows, Android, iOS,
 or macOS. The app you'll create will be a note-taking app, where the user 
 can create, save, and load multiple notes.
 
-{% section 'page-toc-content' %}
-HELLO
-{% endsection %}
-
 In this tutorial, you learn how to:
 
 *   Create a .NET MAUI Shell app.
