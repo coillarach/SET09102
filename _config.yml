@@ -1,4 +1,2 @@
-remote_theme: just-the-docs/just-the-docs
 title: "Software Engineering"
-sidebar:
-  - maui-tutorial
+remote_theme: just-the-docs/just-the-docs
