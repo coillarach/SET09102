@@ -1,2 +1,4 @@
 theme: jekyll-theme-slate
 title: "Software Engineering"
+sidebar:
+  - maui-tutorial
