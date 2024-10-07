@@ -26,7 +26,7 @@
 For this assessment, you will build up a portfolio of work on a weekly basis.
 To generate your portfolio entries, you will sometimes need to work with others
 as a Scrum team. Scrum was covered in the
-[Software Engineering Methods module](https://github.com/Kevin-Sim/SET08103/lectures/lecture02).
+[Software Engineering Methods module](https://github.com/edinburgh-napier/SET08103/blob/main/units/unit01/unit01b.md).
 If you have not done that module and you are not already familiar with Scrum, make this
 known to the rest of your team during the practical session in week 2. The other
 members of the team will then be able to support you.
